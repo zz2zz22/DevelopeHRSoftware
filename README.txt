@@ -1,0 +1,4 @@
+- Đổi tên các hàng của bảng excel được xuất ra
+- Thêm danh sách của Attendance lây MSNV, tên, bộ phân, ca làm, giờ vào, giờ ra.
+- Thêm phần chi tiết của bộ phân quản lý trên file Excel đã xuất.
+- Bug chấm công: không vân tay vẫn chấm, Có vân tay không chấm
