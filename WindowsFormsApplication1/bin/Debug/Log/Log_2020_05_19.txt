@@ -1,0 +1,2 @@
+[13:49:18.974]  sqlDataAdapterFillDatatable(string sql, ref DataTable dt)
+[15:26:32.558]  sqlDataAdapterFillDatatable(string sql, ref DataTable dt)

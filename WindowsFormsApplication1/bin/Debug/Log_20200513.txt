@@ -1,0 +1,2 @@
+15:38:36.510 btn_SearchExport_Click(object sender, EventArgs e) : The specified file wasn't found.
+16:26:51.980 Database Responce : Incorrect syntax near the keyword 'Current'.

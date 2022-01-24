@@ -1,0 +1,6 @@
+10:24:03.861 Database Responce : Violation of PRIMARY KEY constraint 'PK_SFT_WS_RUN'. Cannot insert duplicate key in object 'dbo.SFT_WS_RUN'.
+The statement has been terminated.
+10:25:41.198 Database Responce : Violation of PRIMARY KEY constraint 'PK_SFT_WS_RUN'. Cannot insert duplicate key in object 'dbo.SFT_WS_RUN'.
+The statement has been terminated.
+10:25:41.282 Database Responce : 
+10:25:41.286 InsertLOTForFinishedGoods : 

@@ -1,0 +1,7 @@
+[09:03:16.856] Dictionary<string, int> NumberDigitsofCodeINVTA()
+[09:04:58.310] Dictionary<string, int> NumberDigitsofCodeINVTA()
+[10:42:21.481]  sqlDataAdapterFillDatatable(string sql, ref DataTable dt)
+[10:46:24.419]  sqlDataAdapterFillDatatable(string sql, ref DataTable dt)
+[11:08:09.763] sqlExecuteScalarString(string sql)
+[11:08:11.095] sqlExecuteScalarString(string sql)
+[11:08:12.452] sqlExecuteScalarString(string sql)

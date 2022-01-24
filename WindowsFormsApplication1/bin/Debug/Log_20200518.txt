@@ -1,0 +1,12 @@
+16:15:57.371 Database Responce : Cannot insert the value NULL into column 'dateCreate', table 'ERPSOFT.dbo.t_ExportFGoods'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+16:19:28.435 Database Responce : Cannot insert the value NULL into column 'dateCreate', table 'ERPSOFT.dbo.t_ExportFGoods'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+16:22:14.564 Database Responce : Cannot insert the value NULL into column 'dateCreate', table 'ERPSOFT.dbo.t_ExportFGoods'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+16:25:30.148 Database Responce : Cannot insert the value NULL into column 'dateCreate', table 'ERPSOFT.dbo.t_ExportFGoods'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+16:27:20.916 Database Responce : Cannot insert the value NULL into column 'dateCreate', table 'ERPSOFT.dbo.t_ExportFGoods'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+16:32:29.784 Database Responce : Cannot insert the value NULL into column 'dateCreate', table 'ERPSOFT.dbo.t_ExportFGoods'; column does not allow nulls. INSERT fails.
+The statement has been terminated.

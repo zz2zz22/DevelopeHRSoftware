@@ -1,0 +1,13 @@
+09:32:20.479 -------------------Start---------------   : INOUTManagement
+09:32:39.140 Scan Purchase receipt code : s3401-20020328;BPJHC45-25FPM;20,000.00;02/12/2023;241820;423498e
+09:36:25.632 -------------------Start---------------   : INOUTManagement
+09:38:09.873 -------------------Start---------------   : INOUTManagement
+10:28:18.030 -------------------Start---------------   : INOUTManagement
+10:32:12.280 -------------------Start---------------   : INOUTManagement
+10:45:15.951 -------------------Start---------------   : INOUTManagement
+10:48:51.972 -------------------Start---------------   : INOUTManagement
+10:50:24.391 -------------------Start---------------   : INOUTManagement
+10:53:06.661 -------------------Start---------------   : INOUTManagement
+11:00:58.519 -------------------Start---------------   : INOUTManagement
+11:05:53.583 -------------------Start---------------   : INOUTManagement
+11:06:04.511 Stock-out receipt complete : 1201-20020001

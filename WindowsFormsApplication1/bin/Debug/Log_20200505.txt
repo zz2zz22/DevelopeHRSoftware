@@ -1,0 +1,20 @@
+08:43:57.536 Database Responce : There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+08:44:37.148 Database Responce : There are fewer columns in the INSERT statement than values specified in the VALUES clause. The number of values in the VALUES clause must match the number of columns specified in the INSERT statement.
+09:16:35.387 btn_PrintQRCode_Click(object sender, EventArgs e) : Rows collection cannot be programmatically cleared when the DataGridView control is data-bound to anything else than an IBindingList that supports change notification and allows deletion.
+15:08:09.065 InsertSFT_Transorder(FinishedGoodsItems fgItems) : There is no row at position 0.
+15:08:09.075 Upload SFT_Transorder finished : 
+15:08:09.138  InsertSFT_TRANSORDER_LINE(FinishedGoodsItems fgItems, string TransNo,string TB002 ) : Object reference not set to an instance of an object.
+15:08:09.141 Upload SFT_Transorder_Line finished : 
+15:08:09.188 InsertSFT_WS_RUN : There is no row at position 0.
+15:08:09.192 Upload InsertSFT_WS_Run finished : 
+15:08:09.219 UpdateMODETAIL(FinishedGoodsItems fgItems) : There is no row at position 0.
+15:08:09.223 Update modelDetail : false
+15:09:06.406 UpdateData2DBForFinishedGoods(FinishedGoodsItems fgItems) : There is no row at position 0.
+15:30:24.592 UpdateData2DBForFinishedGoods(FinishedGoodsItems fgItems) : Column 'TL055' does not belong to table .
+15:40:08.566 Database Responce : Incorrect syntax near ','.
+15:41:14.980 Database Responce : Error converting data type varchar to numeric.
+15:58:18.413 Database Responce : Incorrect syntax near 'TEST4'.
+16:06:41.002 Database Responce : Violation of PRIMARY KEY constraint 'PK_SFT_TRANSORDER_LINE'. Cannot insert duplicate key in object 'dbo.SFT_TRANSORDER_LINE'.
+The statement has been terminated.
+16:22:56.066 Database Responce : Incorrect syntax near 'TEST4'.
+16:28:24.828 Database Responce : Incorrect syntax near 'TEST4'.

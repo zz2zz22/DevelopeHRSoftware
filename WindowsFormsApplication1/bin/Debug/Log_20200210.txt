@@ -1,0 +1,60 @@
+08:39:51.929 -------------------Start---------------   : INOUTManagement
+08:47:59.301 -------------------Start---------------   : INOUTManagement
+08:51:41.052 -------------------Start---------------   : INOUTManagement
+08:56:31.730 -------------------Start---------------   : INOUTManagement
+08:59:51.783 -------------------Start---------------   : INOUTManagement
+09:08:18.937 -------------------Start---------------   : INOUTManagement
+09:11:30.924 -------------------Start---------------   : INOUTManagement
+09:14:48.251 -------------------Start---------------   : INOUTManagement
+09:20:00.472 -------------------Start---------------   : INOUTManagement
+09:29:33.437 -------------------Start---------------   : INOUTManagement
+09:30:15.977 -------------------Start---------------   : INOUTManagement
+09:35:17.018 -------------------Start---------------   : INOUTManagement
+09:38:06.647 -------------------Start---------------   : INOUTManagement
+09:42:04.727 -------------------Start---------------   : INOUTManagement
+09:49:07.960 -------------------Start---------------   : INOUTManagement
+09:50:23.359 -------------------Start---------------   : INOUTManagement
+09:52:32.980 -------------------Start---------------   : INOUTManagement
+09:54:16.806 -------------------Start---------------   : INOUTManagement
+09:58:15.261 -------------------Start---------------   : INOUTManagement
+10:09:42.882 -------------------Start---------------   : INOUTManagement
+10:12:18.572 -------------------Start---------------   : INOUTManagement
+10:13:50.491 -------------------Start---------------   : INOUTManagement
+10:15:07.222 -------------------Start---------------   : INOUTManagement
+10:17:01.518 -------------------Start---------------   : INOUTManagement
+10:23:09.880 -------------------Start---------------   : INOUTManagement
+10:34:08.505 -------------------Start---------------   : INOUTManagement
+10:34:23.743 MakeUpDatagridStockOut(DataGridView gridView) : Object reference not set to an instance of an object.
+10:34:52.067 MakeUpDatagridStockOut(DataGridView gridView) : Object reference not set to an instance of an object.
+10:34:53.139 MakeUpDatagridStockOut(DataGridView gridView) : Object reference not set to an instance of an object.
+10:36:39.734 MakeUpDatagridStockOut(DataGridView gridView) : Object reference not set to an instance of an object.
+10:37:07.275 -------------------Start---------------   : INOUTManagement
+10:40:53.769 -------------------Start---------------   : INOUTManagement
+10:45:13.918 -------------------Start---------------   : INOUTManagement
+10:45:28.588 MakeUpDatagridStockOut(DataGridView gridView) : Object reference not set to an instance of an object.
+10:48:24.075 -------------------Start---------------   : INOUTManagement
+10:48:33.613 MakeUpDatagridStockOut(DataGridView gridView) : Object reference not set to an instance of an object.
+10:49:57.747 -------------------Start---------------   : INOUTManagement
+10:50:26.795 MakeUpDatagridStockOut(DataGridView gridView) : Object reference not set to an instance of an object.
+10:50:45.667 MakeUpDatagridStockOut(DataGridView gridView) : Object reference not set to an instance of an object.
+10:59:16.646 -------------------Start---------------   : INOUTManagement
+11:00:30.645 -------------------Start---------------   : INOUTManagement
+11:01:50.685 -------------------Start---------------   : INOUTManagement
+11:06:31.197 -------------------Start---------------   : INOUTManagement
+11:07:44.388 -------------------Start---------------   : INOUTManagement
+11:09:22.141 -------------------Start---------------   : INOUTManagement
+11:12:27.124 -------------------Start---------------   : INOUTManagement
+11:13:00.969 -------------------Start---------------   : INOUTManagement
+11:15:47.674 -------------------Start---------------   : INOUTManagement
+11:17:03.612 -------------------Start---------------   : INOUTManagement
+11:28:48.520 -------------------Start---------------   : INOUTManagement
+11:50:17.713 -------------------Start---------------   : INOUTManagement
+11:51:45.908 -------------------Start---------------   : INOUTManagement
+13:02:52.880 -------------------Start---------------   : INOUTManagement
+13:07:50.001 -------------------Start---------------   : INOUTManagement
+13:13:43.824 -------------------Start---------------   : INOUTManagement
+13:14:21.998 -------------------Start---------------   : INOUTManagement
+13:22:50.531 -------------------Start---------------   : INOUTManagement
+13:27:59.577 -------------------Start---------------   : INOUTManagement
+13:39:41.725 -------------------Start---------------   : INOUTManagement
+13:43:25.906 -------------------Start---------------   : INOUTManagement

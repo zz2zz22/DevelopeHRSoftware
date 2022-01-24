@@ -1,0 +1,15 @@
+10:42:32.087 -------------------Start---------------   : INOUTManagement
+10:51:30.229 -------------------Start---------------   : INOUTManagement
+11:02:49.787 -------------------Start---------------   : INOUTManagement
+11:03:36.827 -------------------Start---------------   : INOUTManagement
+11:07:25.982 -------------------Start---------------   : INOUTManagement
+11:07:43.321 MakeUpDatagridStockOut(DataGridView gridView) : Column 'MM003' does not belong to table .
+11:08:24.149 -------------------Start---------------   : INOUTManagement
+11:08:32.564 MakeUpDatagridStockOut(DataGridView gridView) : Column 'MM003' does not belong to table .
+11:09:29.277 -------------------Start---------------   : INOUTManagement
+11:09:52.668 MakeUpDatagridStockOut(DataGridView gridView) : Column 'MM003' does not belong to table .
+11:10:33.144 -------------------Start---------------   : INOUTManagement
+13:58:30.147 -------------------Start---------------   : INOUTManagement
+14:04:05.607 -------------------Start---------------   : INOUTManagement
+14:07:27.067 -------------------Start---------------   : INOUTManagement
+14:09:18.190 -------------------Start---------------   : INOUTManagement

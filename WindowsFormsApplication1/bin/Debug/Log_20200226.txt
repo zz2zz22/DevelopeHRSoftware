@@ -1,0 +1,254 @@
+09:03:15.275 -------------------Start---------------   : INOUTManagement
+09:04:58.800 -------------------Start---------------   : INOUTManagement
+13:36:58.276 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:36:59.577 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:27:22.629 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:27:22.844 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:22.957 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:23.104 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:23.199 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:23.431 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:23.661 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:23.777 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:23.864 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:23.990 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:24.140 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:24.319 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:24.384 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:24.460 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:24.541 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:24.605 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:24.791 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:24.899 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:24.969 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:25.045 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:25.127 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:25.320 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:25.413 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:25.507 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:25.598 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:25.691 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:25.799 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:25.857 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:25.918 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:26.024 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:26.166 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:26.350 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:26.423 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:26.503 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:26.578 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:26.670 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:26.827 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:27:26.953 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:27.032 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:27.158 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:27.305 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:27.454 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:27.706 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:27.938 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:28.071 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:28.196 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:28.358 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:28.535 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:28.683 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:28.819 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:28.915 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:29.009 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:29.214 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:29.361 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:29.470 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:29.584 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:29.716 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:29.915 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:30.012 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:30.112 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:30.227 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:30.320 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:30.483 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:30.592 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:30.690 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:30.775 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:30.886 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:31.118 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:31.249 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:31.341 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:31.474 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:31.606 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:31.815 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:31.926 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:32.071 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:32.216 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:32.347 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:32.488 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:32.558 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:32.711 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:32.828 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:32.975 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:33.185 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:33.281 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:33.339 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:33.396 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:33.475 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:33.644 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:33.738 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:33.802 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:33.881 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:33.963 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:34.106 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:34.169 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:34.290 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:34.366 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:34.448 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:34.585 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:34.681 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:34.776 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:34.844 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:34.918 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:35.061 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:35.130 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:35.192 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:35.256 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:35.331 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:35.533 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:35.620 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:35.743 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:35.841 Database Responce : Ambiguous column name 'ITEMID'.
+14:27:35.936 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:15.667 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:31:15.826 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:15.964 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:16.076 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:16.206 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:16.329 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:16.524 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:16.652 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:16.773 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:16.889 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:17.006 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:17.196 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:17.287 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:17.421 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:17.563 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:17.706 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:17.939 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:18.060 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:18.179 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:18.287 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:18.403 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:18.627 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:18.753 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:18.840 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:18.932 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:19.068 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:19.273 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:19.367 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:19.458 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:19.552 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:19.644 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:19.854 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:19.958 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:20.038 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:20.143 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:20.242 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:20.399 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:31:20.516 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:20.615 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:20.701 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:20.824 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:20.877 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:21.044 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:21.180 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:21.303 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:21.359 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:21.435 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:21.585 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:21.691 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:21.757 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:21.830 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:21.901 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:22.108 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:22.278 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:22.374 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:22.515 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:22.652 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:22.819 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:22.913 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:22.981 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:23.142 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:23.242 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:23.393 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:23.471 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:23.539 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:23.613 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:23.689 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:23.864 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:23.921 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:23.989 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:24.061 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:24.121 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:24.288 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:24.360 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:24.436 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:24.552 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:24.618 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:24.754 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:24.838 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:24.952 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.020 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.082 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.207 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.323 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.428 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.505 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.578 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.705 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.769 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.875 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:25.949 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.069 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.199 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.290 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.366 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.467 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.548 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.667 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.741 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.818 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.871 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:26.942 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:27.073 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:27.143 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:27.219 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:27.296 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:27.354 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:27.485 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:27.543 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:27.616 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:27.676 Database Responce : Ambiguous column name 'ITEMID'.
+14:31:27.750 Database Responce : Ambiguous column name 'ITEMID'.
+14:33:11.783 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:33:29.066 Database Responce : Ambiguous column name 'ITEMID'.
+14:34:43.061 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:34:46.020 Database Responce : Ambiguous column name 'ITEMID'.
+14:36:05.439 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:36:26.190 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:51:47.893 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:51:49.731 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:57:05.430 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+14:57:06.569 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+15:05:09.867 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+15:05:10.922 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+15:05:37.638 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+15:05:38.515 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+16:06:40.574 LoadDataPlanningToShow(DateTime from, DateTime to) : Object reference not set to an instance of an object.
+16:07:18.887 LoadDataPlanningToShow(DateTime from, DateTime to) : Object reference not set to an instance of an object.
+16:09:58.829 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+16:09:59.700 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+16:13:43.707 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+16:13:44.392 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+16:14:20.483 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+16:14:21.387 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+16:16:10.283 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+16:16:11.157 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+16:22:24.518 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+16:22:25.238 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.

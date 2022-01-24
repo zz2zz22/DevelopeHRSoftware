@@ -1,0 +1,57 @@
+08:35:54.450 dasdsad : dasdadasddsda
+08:45:58.151 dasdsad : dasdadasddsda
+09:15:08.889 dasdsad : dasdadasddsda
+09:17:31.956 dasdsad : dasdadasddsda
+09:20:16.432 dasdsad : dasdadasddsda
+09:45:39.840 dasdsad : dasdadasddsda
+09:49:49.860 dasdsad : dasdadasddsda
+09:51:10.955 Database Responce : Invalid column name 'dateImport'.
+Invalid column name 'dateImport'.
+09:51:13.127 Database Responce : Invalid column name 'dateImport'.
+Invalid column name 'dateImport'.
+09:51:35.839 Database Responce : Invalid column name 'dateImport'.
+Invalid column name 'dateImport'.
+10:39:23.429 dasdsad : dasdadasddsda
+10:42:57.531 dasdsad : dasdadasddsda
+10:45:20.590 dasdsad : dasdadasddsda
+10:49:23.969 dasdsad : dasdadasddsda
+10:51:20.903 dasdsad : dasdadasddsda
+11:04:51.951 dasdsad : dasdadasddsda
+13:19:56.231 dasdsad : dasdadasddsda
+13:22:38.184 dasdsad : dasdadasddsda
+13:23:30.593 dasdsad : dasdadasddsda
+13:41:38.069 dasdsad : dasdadasddsda
+13:44:21.864 dasdsad : dasdadasddsda
+13:48:17.983 dasdsad : dasdadasddsda
+13:48:42.851 Read file import  : Cannot perform runtime binding on a null reference
+13:52:09.652 dasdsad : dasdadasddsda
+13:54:02.667 dasdsad : dasdadasddsda
+13:58:03.988 dasdsad : dasdadasddsda
+13:58:57.404 Read file import  : Cannot perform runtime binding on a null reference
+14:23:45.267 dasdsad : dasdadasddsda
+14:26:56.903 Read file import  : Cannot perform runtime binding on a null reference
+14:32:10.131 dasdsad : dasdadasddsda
+14:32:52.464 Read file import  : Cannot perform runtime binding on a null reference
+14:35:55.285 dasdsad : dasdadasddsda
+14:36:33.821 Read file import  : Cannot perform runtime binding on a null reference
+14:37:31.463 dasdsad : dasdadasddsda
+14:38:14.408 Read file import  : Cannot perform runtime binding on a null reference
+14:57:20.915 dasdsad : dasdadasddsda
+14:58:02.196 Read file import  : Cannot perform runtime binding on a null reference
+14:59:01.163 dasdsad : dasdadasddsda
+15:03:23.189 dasdsad : dasdadasddsda
+15:05:25.630 dasdsad : dasdadasddsda
+15:07:25.863 dasdsad : dasdadasddsda
+15:08:34.643 dasdsad : dasdadasddsda
+15:09:17.263 Read file import  : Cannot perform runtime binding on a null reference
+15:10:36.625 dasdsad : dasdadasddsda
+15:12:34.191 dasdsad : dasdadasddsda
+15:13:33.900 Read file import  : Cannot perform runtime binding on a null reference
+15:15:28.924 dasdsad : dasdadasddsda
+15:16:52.063 Read file import  : Cannot perform runtime binding on a null reference
+15:31:27.813 dasdsad : dasdadasddsda
+15:32:20.801 Read file import  : Cannot perform runtime binding on a null reference
+16:51:49.067 dasdsad : dasdadasddsda
+17:19:36.111 dasdsad : dasdadasddsda
+17:29:28.947 dasdsad : dasdadasddsda
+18:24:09.396 dasdsad : dasdadasddsda

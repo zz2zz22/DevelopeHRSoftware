@@ -1,0 +1,33 @@
+[10:59:40.633] Export MQC report to excel sucessfull
+[11:11:34.644] Export MQC report to excel sucessfull
+[11:43:23.857] Export MQC report to excel sucessfull
+[11:48:16.773] Export MQC report to excel sucessfull
+[11:51:54.006] Export MQC report to excel sucessfull
+[11:56:21.915] Export MQC report to excel sucessfull
+[14:21:19.859] LoadDataERPMQCToShow()
+[14:32:53.177] Export Reliability report to excel sucessfull
+[15:00:04.092] LoadDataERPMQCToShow()
+[15:00:14.049] LoadDataERPMQCToShow()
+[15:00:36.907] Export Reliability report to excel sucessfull
+[15:00:37.282] LoadDataERPMQCToShow()
+[15:00:44.114] LoadDataERPMQCToShow()
+[15:00:54.055] LoadDataERPMQCToShow()
+[15:01:04.076] LoadDataERPMQCToShow()
+[15:01:14.091] LoadDataERPMQCToShow()
+[15:01:24.063] LoadDataERPMQCToShow()
+[15:01:34.081] LoadDataERPMQCToShow()
+[15:06:10.144] Export Reliability report to excel sucessfull
+[15:09:55.151] Export Reliability report to excel sucessfull
+[15:14:24.485] Export Reliability report to excel sucessfull
+[15:25:42.361] Export Reliability report to excel sucessfull
+[15:34:33.678] Export Reliability report to excel sucessfull
+[15:38:37.329] Export Reliability report to excel sucessfull
+[15:41:17.202] Export Reliability report to excel sucessfull
+[16:09:41.125] ExportToTemplate error
+[16:12:25.780] ExportToTemplate error
+[16:13:50.177] ExportToTemplate error
+[16:15:25.029] Xuat file OK
+[16:19:07.829] Xuat file OK
+[16:20:38.891] Export Reliability report to excel sucessfull
+[16:24:29.006] Export Reliability report to excel sucessfull
+[16:37:35.161] Export MQC report to excel sucessfull

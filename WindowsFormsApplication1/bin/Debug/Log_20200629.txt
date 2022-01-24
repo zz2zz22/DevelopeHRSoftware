@@ -1,0 +1,17 @@
+09:13:34.852 Database Responce : 
+09:27:35.925 UpdateDataFromExcel(DataTable dtExcel) : Column 'Mieu ta' does not belong to table .
+09:29:58.376 Database Responce : not suscessful
+11:43:56.253 ExportCustomsDecalaration(string PathSave,DataTable dtexport) : export fail
+14:35:01.999 ERPPQCtoSFTTRANSORDERLINE(DataTable ERPPQC, string TranSorder,string TB002, string Location) : There is no row at position 0.
+14:35:02.050  public DataTable GetDataSFTTRANSORDER(DataTable ERPPQC, DataTable TRANSORDERLINE) : There is no row at position 0.
+14:35:02.092  public DataTable GetDataSFTTRANSORDER(DataTable ERPPQC, DataTable TRANSORDERLINE) : There is no row at position 0.
+14:35:02.140 GetDataTableSFCTC : There is no row at position 0.
+14:40:05.275 ERPPQCtoSFTTRANSORDERLINE(DataTable ERPPQC, string TranSorder,string TB002, string Location) : There is no row at position 0.
+14:40:05.345  public DataTable GetDataSFTTRANSORDER(DataTable ERPPQC, DataTable TRANSORDERLINE) : There is no row at position 0.
+14:40:05.387  public DataTable GetDataSFTTRANSORDER(DataTable ERPPQC, DataTable TRANSORDERLINE) : There is no row at position 0.
+14:40:05.437 GetDataTableSFCTC : There is no row at position 0.
+14:44:59.014 ERPPQCtoSFTTRANSORDERLINE(DataTable ERPPQC, string TranSorder,string TB002, string Location) : There is no row at position 0.
+14:45:40.510  public DataTable GetDataSFTTRANSORDER(DataTable ERPPQC, DataTable TRANSORDERLINE) : There is no row at position 0.
+14:45:58.944  public DataTable GetDataSFTTRANSORDER(DataTable ERPPQC, DataTable TRANSORDERLINE) : There is no row at position 0.
+16:17:39.630 ExportCustomsDecalaration(string PathSave,DataTable dtexport) : export fail
+16:17:57.990 ExportCustomsDecalaration(string PathSave,DataTable dtexport) : export fail

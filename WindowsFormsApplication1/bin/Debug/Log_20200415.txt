@@ -1,0 +1,1 @@
+13:24:30.132 GetInoutDatasFromDateTime(DateTime from, DateTime to) : Column 'Dept' does not belong to table .

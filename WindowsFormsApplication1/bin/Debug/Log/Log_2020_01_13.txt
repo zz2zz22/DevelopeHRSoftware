@@ -1,0 +1,3 @@
+[13:38:37.128] sqlExecuteScalarString(string sql)
+[13:49:50.479] sqlExecuteScalarString(string sql)
+[17:02:40.827] sqlExecuteScalarString(string sql)

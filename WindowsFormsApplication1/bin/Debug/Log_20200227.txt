@@ -1,0 +1,120 @@
+10:28:54.245 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+10:28:55.243 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+10:29:37.720 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+10:42:26.792 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:27.114 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:27.375 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:27.602 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:27.850 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:28.073 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:28.300 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:28.556 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:28.720 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:28.904 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:29.093 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:29.321 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:29.526 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:29.749 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:30.012 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:30.215 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:30.451 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:30.672 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:30.941 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:31.335 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+10:42:31.581 Database Responce : Invalid column name 'MD001'.
+Invalid column name 'MD003'.
+Invalid column name 'MD012'.
+Invalid column name 'MD003'.
+11:35:53.006 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:35:53.950 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:35:54.204 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:35:54.954 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:40:07.287 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:40:08.488 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:40:08.718 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:40:09.599 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:40:53.056 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:40:53.905 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:40:54.111 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:40:54.918 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:44:12.436 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:44:13.416 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:49:57.103 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:49:58.259 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:51:10.076 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:51:11.142 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:51:46.885 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+11:51:47.984 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:06:39.889 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:06:40.441 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:10:52.098 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:10:52.487 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:14:40.347 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:14:40.877 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:15:43.954 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:15:44.471 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:17:05.201 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+13:17:05.780 sqlExecuteScalarString(string sql) : Object reference not set to an instance of an object.
+15:13:45.942  M_ItemClicked(object sender, ToolStripItemClickedEventArgs e) : ExportToExcel: 
+Value cannot be null.
+Parameter name: source

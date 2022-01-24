@@ -1,0 +1,4 @@
+10:18:29.960 Dictionary<string,string> GetNameTranslate (LanguageEnum Language, string FunctionGroup, string FunctionName) : 'name' argument cannot be null.
+Parameter name: name
+11:12:03.664 List<AttendanceDept> GetAttendanceDepts() : Hour, Minute, and Second parameters describe an un-representable DateTime.
+11:14:31.467 List<AttendanceDept> GetAttendanceDepts() : Hour, Minute, and Second parameters describe an un-representable DateTime.

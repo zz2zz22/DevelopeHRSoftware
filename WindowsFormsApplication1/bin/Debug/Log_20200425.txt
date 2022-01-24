@@ -1,0 +1,57 @@
+08:30:58.507 -------------------Start---------------   : INOUTManagement
+08:34:41.681 -------------------Start---------------   : INOUTManagement
+08:38:52.394 -------------------Start---------------   : INOUTManagement
+08:59:46.421 -------------------Start---------------   : INOUTManagement
+09:06:52.574 -------------------Start---------------   : INOUTManagement
+09:12:15.787 -------------------Start---------------   : INOUTManagement
+09:50:20.729 -------------------Start---------------   : INOUTManagement
+09:53:23.032 Database Responce : Incorrect syntax near 'LOT'.
+09:53:59.910 -------------------Start---------------   : INOUTManagement
+09:55:28.601 Database Responce : Cannot insert the value NULL into column 'LOT008', table 'SFT_TLVN2.dbo.LOT'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+09:57:28.184 -------------------Start---------------   : INOUTManagement
+12:00:51.034 -------------------Start---------------   : INOUTManagement
+13:11:52.380 -------------------Start---------------   : INOUTManagement
+13:12:11.757  InsertSFCTCForFinishedGoods(FinishedGoodsItems fgItems) : There is no row at position 0.
+13:12:39.277 -------------------Start---------------   : INOUTManagement
+13:12:57.963  InsertSFCTCForFinishedGoods(FinishedGoodsItems fgItems) : There is no row at position 0.
+13:14:06.217 -------------------Start---------------   : INOUTManagement
+13:15:59.495 -------------------Start---------------   : INOUTManagement
+13:17:12.396 -------------------Start---------------   : INOUTManagement
+13:24:38.772 -------------------Start---------------   : INOUTManagement
+13:25:04.264 eRPDataUpdate.UploadtoERPDBForFinishedGoods(fgItems, TB002, TransNo) : false
+13:52:16.781 -------------------Start---------------   : INOUTManagement
+13:54:42.409 -------------------Start---------------   : INOUTManagement
+13:56:48.351 -------------------Start---------------   : INOUTManagement
+13:57:40.677 -------------------Start---------------   : INOUTManagement
+13:58:01.499 -------------------Start---------------   : INOUTManagement
+13:59:19.146 -------------------Start---------------   : INOUTManagement
+14:00:59.032 -------------------Start---------------   : INOUTManagement
+14:03:31.260 -------------------Start---------------   : INOUTManagement
+14:07:28.746 -------------------Start---------------   : INOUTManagement
+14:09:50.550 -------------------Start---------------   : INOUTManagement
+14:11:27.760 -------------------Start---------------   : INOUTManagement
+14:15:25.563 -------------------Start---------------   : INOUTManagement
+14:16:57.004 -------------------Start---------------   : INOUTManagement
+14:22:45.252 -------------------Start---------------   : INOUTManagement
+14:24:48.865 -------------------Start---------------   : INOUTManagement
+14:26:00.320 InsertOrUpdateLOT(fgItems) : false
+14:26:37.344 sFTDataUpdate.SFTdataUpdate(fgItems, TB002, TransNo) : false
+14:35:01.003 -------------------Start---------------   : INOUTManagement
+14:36:29.497 InsertLOTForFinishedGoods : 
+14:36:30.976 InsertOrUpdateLOT(fgItems) : false
+14:36:56.470 sFTDataUpdate.SFTdataUpdate(fgItems, TB002, TransNo) : false
+14:37:07.514 D301-20040004 is created ! : 
+14:39:02.951 -------------------Start---------------   : INOUTManagement
+14:43:03.056 -------------------Start---------------   : INOUTManagement
+14:46:43.391 -------------------Start---------------   : INOUTManagement
+14:47:19.979 Database Responce : Invalid column name 'CMOID'.
+14:48:34.809 -------------------Start---------------   : INOUTManagement
+14:49:29.268 InsertLOTForFinishedGoods : 
+14:49:42.756 InsertOrUpdateLOT(fgItems) : false
+14:49:48.755 sFTDataUpdate.SFTdataUpdate(fgItems, TB002, TransNo) : false
+14:49:51.841 D301-20040005 is created ! : 
+15:04:44.752 -------------------Start---------------   : INOUTManagement
+15:05:46.743 D301-2004250005 is created ! : 
+15:06:02.522 D301-20040006 is created ! : 
+15:59:23.121 -------------------Start---------------   : INOUTManagement

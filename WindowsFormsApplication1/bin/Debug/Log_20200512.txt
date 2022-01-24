@@ -1,0 +1,8 @@
+08:50:06.093 Database Responce : Violation of PRIMARY KEY constraint 'PK_SFT_WS_RUN'. Cannot insert duplicate key in object 'dbo.SFT_WS_RUN'.
+The statement has been terminated.
+10:45:01.349 Database Responce : Violation of PRIMARY KEY constraint 'PK_SFT_WS_RUN'. Cannot insert duplicate key in object 'dbo.SFT_WS_RUN'.
+The statement has been terminated.
+10:47:00.858 Database Responce : Violation of PRIMARY KEY constraint 'PK_SFT_WS_RUN'. Cannot insert duplicate key in object 'dbo.SFT_WS_RUN'.
+The statement has been terminated.
+15:07:07.905 Database Responce : Violation of PRIMARY KEY constraint 'PK_SFT_WS_RUN'. Cannot insert duplicate key in object 'dbo.SFT_WS_RUN'.
+The statement has been terminated.

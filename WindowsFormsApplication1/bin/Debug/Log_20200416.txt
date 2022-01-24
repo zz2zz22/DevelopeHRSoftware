@@ -1,0 +1,1 @@
+16:26:57.140  ExportListSeasonalEmployee(string pathSave, Dictionary<string, Model.MonthInOut> DicSeasonalEmp) : Year, Month, and Day parameters describe an un-representable DateTime.

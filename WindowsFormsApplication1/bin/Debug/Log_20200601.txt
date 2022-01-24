@@ -1,0 +1,15 @@
+10:43:20.109 btn_ExportFGs_Click : Input string was not in a correct format.
+10:45:50.508 btn_ExportFGs_Click : Input string was not in a correct format.
+14:45:08.953 Database Responce : Object reference not set to an instance of an object.
+14:45:17.804 Database Responce : Object reference not set to an instance of an object.
+14:50:42.739 Database Responce : Object reference not set to an instance of an object.
+14:50:48.255 Database Responce : Object reference not set to an instance of an object.
+15:15:53.474 Database Responce : Object reference not set to an instance of an object.
+15:16:00.308 Database Responce : Object reference not set to an instance of an object.
+15:19:20.117 Database Responce : Object reference not set to an instance of an object.
+15:19:33.000 Database Responce : Object reference not set to an instance of an object.
+16:17:37.960 Database Responce : 
+16:17:37.992 InsertLOTForFinishedGoods : 
+16:34:26.459 Database Responce : Object reference not set to an instance of an object.
+16:34:26.529 Database Responce : Object reference not set to an instance of an object.
+16:34:48.923 Database Responce : Object reference not set to an instance of an object.

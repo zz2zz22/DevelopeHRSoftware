@@ -1,0 +1,32 @@
+07:49:36.680 dasdsad : dasdadasddsda
+07:51:48.857 dasdsad : dasdadasddsda
+08:03:22.027 dasdsad : dasdadasddsda
+15:27:49.706 dasdsad : dasdadasddsda
+15:39:38.794 dasdsad : dasdadasddsda
+15:43:21.618 dasdsad : dasdadasddsda
+16:03:41.376 dasdsad : dasdadasddsda
+16:15:04.271 dasdsad : dasdadasddsda
+16:17:09.191 dasdsad : dasdadasddsda
+16:22:24.955 dasdsad : dasdadasddsda
+16:23:02.816 GetEmployeeAbsencesNightShift(DateTime date) : String was not recognized as a valid DateTime.
+16:24:10.769 dasdsad : dasdadasddsda
+16:24:30.512 dasdsad : dasdadasddsda
+16:27:03.064 dasdsad : dasdadasddsda
+16:27:24.769 GetEmployeeAbsencesNightShift(DateTime date) : String was not recognized as a valid DateTime.
+16:29:06.148 dasdsad : dasdadasddsda
+16:30:47.612 dasdsad : dasdadasddsda
+16:32:11.028 dasdsad : dasdadasddsda
+16:33:58.870 dasdsad : dasdadasddsda
+16:36:08.964 dasdsad : dasdadasddsda
+16:36:29.918 GetEmployeeAbsencesNightShift(DateTime date) : String was not recognized as a valid DateTime.
+16:36:54.620 dasdsad : dasdadasddsda
+16:38:35.062 dasdsad : dasdadasddsda
+16:39:57.738 dasdsad : dasdadasddsda
+16:40:23.453 dasdsad : dasdadasddsda
+16:43:24.089 dasdsad : dasdadasddsda
+16:48:41.529 dasdsad : dasdadasddsda
+16:50:45.129 dasdsad : dasdadasddsda
+16:51:40.694 dasdsad : dasdadasddsda
+16:57:58.396 dasdsad : dasdadasddsda
+17:12:12.854 dasdsad : dasdadasddsda
+17:13:29.979 dasdsad : dasdadasddsda

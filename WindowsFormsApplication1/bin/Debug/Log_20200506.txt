@@ -1,0 +1,17 @@
+09:09:25.607  : Object reference not set to an instance of an object.
+09:55:53.109 Database Responce : Error converting data type varchar to numeric.
+10:53:36.967 Database Responce : Error converting data type varchar to numeric.
+10:55:39.452 Database Responce : Error converting data type varchar to numeric.
+10:58:55.560 Database Responce : Error converting data type varchar to numeric.
+11:00:43.197 Database Responce : Error converting data type varchar to numeric.
+13:50:21.668 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+13:50:21.688 Database Responce : 
+13:51:01.887 InsertLOTForFinishedGoods : 
+13:51:01.919 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+13:51:01.927 Database Responce : 
+13:51:11.606 InsertLOTForFinishedGoods : 
+13:58:59.140 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+13:58:59.176 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+14:01:11.418 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+14:01:11.456 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+16:07:22.007 GetDataTableSFCTC : Column 'MMODI_AP' does not belong to table .

@@ -1,0 +1,10 @@
+13:57:06.675 Database Responce : Object reference not set to an instance of an object.
+13:57:14.530 Database Responce : Object reference not set to an instance of an object.
+13:57:35.152 Database Responce : Object reference not set to an instance of an object.
+14:16:02.594 Database Responce : Object reference not set to an instance of an object.
+14:16:20.219 Database Responce : Object reference not set to an instance of an object.
+14:16:28.874 Database Responce : Object reference not set to an instance of an object.
+15:30:18.146 btn_PrintQRCode_Click(object sender, EventArgs e) : Object reference not set to an instance of an object.
+15:32:43.682 Database Responce : Violation of PRIMARY KEY constraint 'PK__tmp_ms_x__722007036BDB749B'. Cannot insert duplicate key in object 'dbo.t_ERP_OutPQCQR'. The duplicate key value is (TL01, 20050108, 0001).
+The statement has been terminated.
+16:08:38.537 Database Responce : Object reference not set to an instance of an object.

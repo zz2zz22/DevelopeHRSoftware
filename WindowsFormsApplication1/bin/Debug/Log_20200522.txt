@@ -1,0 +1,6 @@
+08:42:05.616 Database Responce : 
+08:42:05.639 Database Responce : 
+08:42:05.653 Database Responce : 
+08:42:05.660 Database Responce : 
+08:42:05.668 Database Responce : 
+08:42:05.673 InsertLOTForFinishedGoods : 

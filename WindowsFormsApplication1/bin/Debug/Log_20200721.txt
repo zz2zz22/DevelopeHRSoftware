@@ -1,0 +1,43 @@
+13:14:05.743 dasdsad : dasdadasddsda
+13:37:21.467 dasdsad : dasdadasddsda
+14:26:47.636 dasdsad : dasdadasddsda
+14:27:36.010 Database Responce : String or binary data would be truncated.
+The statement has been terminated.
+14:28:18.116 Database Responce : String or binary data would be truncated.
+The statement has been terminated.
+14:35:54.460 dasdsad : dasdadasddsda
+14:36:20.935 Database Responce : Incorrect syntax near 'S'.
+14:43:26.019 dasdsad : dasdadasddsda
+14:50:20.018 dasdsad : dasdadasddsda
+14:50:34.110 Database Responce : Incorrect syntax near 'S'.
+14:57:01.774 dasdsad : dasdadasddsda
+14:58:05.122 Database Responce : Violation of PRIMARY KEY constraint 'PK__tmp_ms_x__16D8D3060B216204'. Cannot insert duplicate key in object 'dbo.t_HQ_ERP_MAPING'. The duplicate key value is (20- AB-CR-C1075-877C, 39241090).
+The statement has been terminated.
+14:58:36.475 dasdsad : dasdadasddsda
+15:00:25.608 Database Responce : Incorrect syntax near 'S'.
+15:04:16.627 dasdsad : dasdadasddsda
+15:04:29.584 Database Responce : Incorrect syntax near 'S'.
+15:06:10.301 dasdsad : dasdadasddsda
+15:06:27.002 Database Responce : Incorrect syntax near 'S'.
+15:06:30.954 Database Responce : Incorrect syntax near 'S'.
+15:06:38.037 Database Responce : Incorrect syntax near 'S'.
+15:06:38.101 Database Responce : Incorrect syntax near 'S'.
+15:06:38.136 Database Responce : Incorrect syntax near 'S'.
+15:06:38.170 Database Responce : Incorrect syntax near 'S'.
+15:06:38.202 Database Responce : Incorrect syntax near 'S'.
+15:06:38.239 Database Responce : Incorrect syntax near 'S'.
+15:06:38.274 Database Responce : Incorrect syntax near 'S'.
+15:17:36.809 dasdsad : dasdadasddsda
+15:19:33.149 dasdsad : dasdadasddsda
+15:25:12.762 dasdsad : dasdadasddsda
+15:38:43.179 dasdsad : dasdadasddsda
+15:49:12.814 dasdsad : dasdadasddsda
+15:50:08.486 Database Responce : Incorrect syntax near 'MA_SP'.
+15:50:11.059 Database Responce : Incorrect syntax near 'MA_SP'.
+15:50:52.480 Database Responce : Incorrect syntax near 'MA_SP'.
+15:52:47.220 dasdsad : dasdadasddsda
+15:58:28.727 dasdsad : dasdadasddsda
+16:01:05.071 dasdsad : dasdadasddsda
+16:52:10.228 dasdsad : dasdadasddsda
+16:57:02.564 dasdsad : dasdadasddsda
+17:00:57.981 dasdsad : dasdadasddsda

@@ -1,0 +1,1 @@
+[14:56:40.602] sqlExecuteScalarString(string sql)

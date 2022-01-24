@@ -1,0 +1,71 @@
+11:24:08.991 fill values into form fail  : Input string was not in a correct format.
+11:27:06.294 Database Responce : Object reference not set to an instance of an object.
+11:27:06.327 Database Responce : Object reference not set to an instance of an object.
+11:27:13.237 Database Responce : Object reference not set to an instance of an object.
+11:27:13.271 Database Responce : Object reference not set to an instance of an object.
+11:27:13.303 Database Responce : Object reference not set to an instance of an object.
+11:27:21.072 Database Responce : Object reference not set to an instance of an object.
+11:28:23.727 Database Responce : Object reference not set to an instance of an object.
+11:28:23.780 Database Responce : Object reference not set to an instance of an object.
+11:28:30.646 Database Responce : Object reference not set to an instance of an object.
+11:28:30.705 Database Responce : Object reference not set to an instance of an object.
+11:28:30.734 Database Responce : Object reference not set to an instance of an object.
+11:37:18.550 Database Responce : Object reference not set to an instance of an object.
+11:37:18.605 Database Responce : Object reference not set to an instance of an object.
+11:37:23.530 Database Responce : Object reference not set to an instance of an object.
+11:37:23.560 Database Responce : Object reference not set to an instance of an object.
+11:37:23.590 Database Responce : Object reference not set to an instance of an object.
+11:38:29.607 Database Responce : Object reference not set to an instance of an object.
+11:38:29.664 Database Responce : Object reference not set to an instance of an object.
+11:38:34.745 Database Responce : Object reference not set to an instance of an object.
+11:38:34.773 Database Responce : Object reference not set to an instance of an object.
+11:38:34.807 Database Responce : Object reference not set to an instance of an object.
+11:43:59.250 Database Responce : Object reference not set to an instance of an object.
+11:43:59.292 Database Responce : Object reference not set to an instance of an object.
+11:43:59.330 Database Responce : Object reference not set to an instance of an object.
+11:55:55.771 Database Responce : Object reference not set to an instance of an object.
+11:55:55.807 Database Responce : Object reference not set to an instance of an object.
+15:25:54.203 Database Responce : Incorrect syntax near '0'.
+Unclosed quotation mark after the character string ' 
+group by 
+coptcs.TC001, 
+coptcs.TC002,
+coptcs.TC003,
+coptds.TD016 ,
+coptds.TD009,
+coptds.TD013,
+copmas.MA002,
+coptcs.TC012,
+coptcs.TC010,
+coptds.TD004,
+cmsmes.ME002,
+coptds.TD016,
+coptds.TD008,
+coptds.TD009,
+coptds.TD010,
+coptds.TD003,
+coptds.TD033,
+copths.TH008
+'.
+15:27:57.645 Database Responce : Incorrect syntax near '0'.
+Unclosed quotation mark after the character string ' 
+group by 
+coptcs.TC001, 
+coptcs.TC002,
+coptcs.TC003,
+coptds.TD016 ,
+coptds.TD009,
+coptds.TD013,
+copmas.MA002,
+coptcs.TC012,
+coptcs.TC010,
+coptds.TD004,
+cmsmes.ME002,
+coptds.TD016,
+coptds.TD008,
+coptds.TD009,
+coptds.TD010,
+coptds.TD003,
+coptds.TD033,
+copths.TH008
+'.

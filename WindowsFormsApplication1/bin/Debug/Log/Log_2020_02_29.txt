@@ -1,0 +1,18 @@
+[10:44:43.870] Export MQC report to excel sucessfull
+[10:49:43.431] Export MQC report to excel sucessfull
+[10:51:04.473] Export MQC report to excel sucessfull
+[10:51:58.830] Export MQC report to excel sucessfull
+[10:56:22.317] Export MQC report to excel sucessfull
+[11:00:38.492] Export MQC report to excel sucessfull
+[11:04:46.749] GetDefectRateReport(DateTime from, DateTime to, string Dept, string codeProcess)
+[11:04:48.232] Export MQC report to excel sucessfull
+[11:05:59.247] GetDefectRateReport(DateTime from, DateTime to, string Dept, string codeProcess)
+[11:06:01.564] Export MQC report to excel sucessfull
+[11:09:31.796] GetDefectRateReport(DateTime from, DateTime to, string Dept, string codeProcess)
+[11:09:33.791] Export MQC report to excel sucessfull
+[11:26:49.656] GetDefectRateReport(DateTime from, DateTime to, string Dept, string codeProcess)
+[11:26:51.796] Export MQC report to excel sucessfull
+[11:29:54.940] Export MQC report to excel sucessfull
+[16:00:03.642] Export MQC report to excel sucessfull
+[16:15:40.637] Export MQC report to excel sucessfull
+[16:16:48.152] Export MQC report to excel sucessfull

@@ -1,0 +1,6 @@
+14:35:44.015 Dictionary<string,string> GetNameTranslate (LanguageEnum Language, string FunctionGroup, string FunctionName) : 'name' argument cannot be null.
+Parameter name: name
+14:36:48.531 Dictionary<string,string> GetNameTranslate (LanguageEnum Language, string FunctionGroup, string FunctionName) : 'name' argument cannot be null.
+Parameter name: name
+14:37:21.223 Dictionary<string,string> GetNameTranslate (LanguageEnum Language, string FunctionGroup, string FunctionName) : 'name' argument cannot be null.
+Parameter name: name

@@ -1,0 +1,92 @@
+08:53:07.491 -------------------Start---------------   : INOUTManagement
+08:54:13.835 -------------------Start---------------   : INOUTManagement
+09:11:52.873 Database Responce : Violation of PRIMARY KEY constraint 'PK_SFT_WS_RUN'. Cannot insert duplicate key in object 'dbo.SFT_WS_RUN'.
+The statement has been terminated.
+09:14:02.861 Database Responce : Violation of PRIMARY KEY constraint 'PK_SFT_WS_RUN'. Cannot insert duplicate key in object 'dbo.SFT_WS_RUN'.
+The statement has been terminated.
+10:08:24.709 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+10:08:28.024 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+10:08:29.629 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+10:08:29.839 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+10:08:33.320 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+10:08:39.508 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+10:10:30.638 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+10:10:32.134 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+10:12:46.444 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+10:15:25.994 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+10:20:44.201 btn_AddPQCOutStock_Click(object sender, EventArgs e) : There is no row at position 0.
+11:04:09.956 Database Responce : The INSERT permission was denied on the object 'SFT_WS_RUN', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.009 Database Responce : The INSERT permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.049 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.053 InsertLOTForFinishedGoods : 
+11:04:10.089 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.130 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.134 InsertLOTForFinishedGoods : 
+11:04:10.171 Database Responce : The INSERT permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.204 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.209 InsertLOTForFinishedGoods : 
+11:04:10.292 Database Responce : The INSERT permission was denied on the object 'SFT_OP_REALRUN', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.334 Database Responce : The UPDATE permission was denied on the object 'SFT_OP_REALRUN', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.338 UpdateOPREALRUN : False
+11:04:10.382 Database Responce : The INSERT permission was denied on the object 'SFT_OP_REALRUN', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.418 Database Responce : The UPDATE permission was denied on the object 'SFT_OP_REALRUN', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.422 UpdateOPREALRUN : False
+11:04:10.468 Database Responce : The INSERT permission was denied on the object 'SFT_OP_REALRUN', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.506 Database Responce : The UPDATE permission was denied on the object 'SFT_OP_REALRUN', database 'SFT_TECHLINK', schema 'dbo'.
+11:04:10.510 UpdateOPREALRUN : False
+11:14:15.173 Database Responce : The INSERT permission was denied on the object 'SFT_TRANSORDER_LINE', database 'SFT_TECHLINK', schema 'dbo'.
+11:14:15.310 Database Responce : The INSERT permission was denied on the object 'SFT_TRANSORDER', database 'SFT_TECHLINK', schema 'dbo'.
+11:14:15.446 Database Responce : The INSERT permission was denied on the object 'SFT_WS_RUN', database 'SFT_TECHLINK', schema 'dbo'.
+11:14:15.585 Database Responce : The UPDATE permission was denied on the object 'MODETAIL', database 'SFT_TECHLINK', schema 'dbo'.
+11:14:15.894 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:14:16.017 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:14:16.033 InsertLOTForFinishedGoods : 
+11:14:16.172 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:14:16.297 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:14:16.313 InsertLOTForFinishedGoods : 
+11:14:16.469 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:14:16.543 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:14:16.555 InsertLOTForFinishedGoods : 
+11:18:34.235 GetDataTableSFCTC : There is no row at position 0.
+11:20:22.793 Database Responce : 
+11:20:22.861 Database Responce : 
+11:20:22.906 Database Responce : 
+11:25:50.994 Database Responce : The INSERT permission was denied on the object 'SFT_TRANSORDER_LINE', database 'SFT_TECHLINK', schema 'dbo'.
+11:25:51.105 Database Responce : The INSERT permission was denied on the object 'SFT_TRANSORDER', database 'SFT_TECHLINK', schema 'dbo'.
+11:25:51.206 Database Responce : The INSERT permission was denied on the object 'SFT_WS_RUN', database 'SFT_TECHLINK', schema 'dbo'.
+11:25:51.282 Database Responce : The UPDATE permission was denied on the object 'MODETAIL', database 'SFT_TECHLINK', schema 'dbo'.
+11:25:51.425 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:25:51.571 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:25:51.592 InsertLOTForFinishedGoods : 
+11:25:51.737 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:25:51.885 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:25:51.899 InsertLOTForFinishedGoods : 
+11:25:52.024 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:25:52.121 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:25:52.129 InsertLOTForFinishedGoods : 
+11:50:44.398 Database Responce : The INSERT permission was denied on the object 'SFT_TRANSORDER_LINE', database 'SFT_TECHLINK', schema 'dbo'.
+11:50:44.453 Database Responce : The INSERT permission was denied on the object 'SFT_TRANSORDER', database 'SFT_TECHLINK', schema 'dbo'.
+11:50:44.502 Database Responce : The INSERT permission was denied on the object 'SFT_WS_RUN', database 'SFT_TECHLINK', schema 'dbo'.
+11:50:44.544 Database Responce : The UPDATE permission was denied on the object 'MODETAIL', database 'SFT_TECHLINK', schema 'dbo'.
+11:50:44.585 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:50:44.620 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:50:44.624 InsertLOTForFinishedGoods : 
+11:50:44.660 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:50:44.696 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:50:44.700 InsertLOTForFinishedGoods : 
+11:50:44.738 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:50:44.771 Database Responce : The UPDATE permission was denied on the object 'LOT', database 'SFT_TECHLINK', schema 'dbo'.
+11:50:44.775 InsertLOTForFinishedGoods : 
+14:40:37.238 -------------------Start---------------   : INOUTManagement
+16:19:05.745 Database Responce : 
+16:19:05.755 InsertLOTForFinishedGoods : 
+16:19:05.765 Database Responce : 
+16:19:05.770 InsertLOTForFinishedGoods : 
+16:19:05.781 Database Responce : 
+16:19:05.788 InsertLOTForFinishedGoods : 
+16:23:10.603 Database Responce : Violation of PRIMARY KEY constraint 'PK_SFT_WS_RUN'. Cannot insert duplicate key in object 'dbo.SFT_WS_RUN'.
+The statement has been terminated.
+16:39:35.523 Database Responce : 
+16:39:35.532 InsertLOTForFinishedGoods : 
+16:39:35.549 Database Responce : 
+16:39:35.554 InsertLOTForFinishedGoods : 

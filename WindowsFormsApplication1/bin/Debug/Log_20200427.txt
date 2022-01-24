@@ -1,0 +1,24 @@
+11:41:36.619 -------------------Start---------------   : INOUTManagement
+11:46:08.760 -------------------Start---------------   : INOUTManagement
+11:56:26.716 -------------------Start---------------   : INOUTManagement
+13:10:07.740 -------------------Start---------------   : INOUTManagement
+13:28:14.217 -------------------Start---------------   : INOUTManagement
+13:31:46.981 -------------------Start---------------   : INOUTManagement
+13:33:35.166 -------------------Start---------------   : INOUTManagement
+13:42:48.433 -------------------Start---------------   : INOUTManagement
+13:44:05.682 D301-02004270001 is created ! : 
+13:44:48.856 D301-20040008 is created ! : 
+14:06:32.626 -------------------Start---------------   : INOUTManagement
+14:06:58.999 D301-02004270002 is created ! : 
+14:07:01.698 D301-20040009 is created ! : 
+14:22:36.493 -------------------Start---------------   : INOUTManagement
+14:23:05.302 D301-02004270003 is created ! : 
+14:23:05.330 D301-20040010 is created ! : 
+15:54:45.028 D301-02004270004 is created ! : 
+15:54:45.091  InsertSFCTCForFinishedGoods(FinishedGoodsItems fgItems) : There is no row at position 0.
+15:54:45.096 InsertSFCTCForFinishedGoods(fgItems, TB002)) : False
+15:54:45.133  InsertSFCTCForFinishedGoods(FinishedGoodsItems fgItems) : There is no row at position 0.
+15:54:45.139 InsertSFCTBForFinishedGoods(fgItems, TransNo, TB002) : False
+15:54:45.147 eRPDataUpdate.UploadtoERPDBForFinishedGoods(fgItems, TB002, TransNo) : false
+15:56:22.428 D301-02004270005 is created ! : 
+15:56:22.486 D301-20040011 is created ! : 

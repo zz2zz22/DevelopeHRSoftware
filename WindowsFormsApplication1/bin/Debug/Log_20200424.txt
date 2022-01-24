@@ -1,0 +1,63 @@
+08:45:33.834 -------------------Start---------------   : INOUTManagement
+09:01:26.989 -------------------Start---------------   : INOUTManagement
+09:19:00.614 -------------------Start---------------   : INOUTManagement
+09:23:52.536 -------------------Start---------------   : INOUTManagement
+09:25:41.181 Database Responce : Error converting data type varchar to numeric.
+09:25:46.607 Upload SFT_Transorder finished : 
+09:25:46.676 Database Responce : Incorrect syntax near 'SFT_TRANSORDER_LINE'.
+09:25:46.680 Upload SFT_Transorder_Line finished : 
+09:25:46.731 Database Responce : Incorrect syntax near 'SFT_WS_RUN'.
+09:25:46.840 Upload InsertSFT_WS_Run finished : 
+09:25:46.872 Database Responce : Incorrect syntax near the keyword 'where'.
+09:38:35.133 -------------------Start---------------   : INOUTManagement
+09:41:30.205 -------------------Start---------------   : INOUTManagement
+09:42:59.944 InsertSFT_Transorder(FinishedGoodsItems fgItems) : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+09:43:06.452 -------------------Start---------------   : INOUTManagement
+09:45:30.266 -------------------Start---------------   : INOUTManagement
+09:47:14.899 -------------------Start---------------   : INOUTManagement
+09:52:28.679 -------------------Start---------------   : INOUTManagement
+13:09:51.867 -------------------Start---------------   : INOUTManagement
+13:11:26.600 -------------------Start---------------   : INOUTManagement
+13:43:14.430 -------------------Start---------------   : INOUTManagement
+13:48:15.046 -------------------Start---------------   : INOUTManagement
+13:49:13.570 InsertSFT_Transorder(FinishedGoodsItems fgItems) : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+13:49:20.924 -------------------Start---------------   : INOUTManagement
+13:50:55.168 -------------------Start---------------   : INOUTManagement
+13:53:26.183 -------------------Start---------------   : INOUTManagement
+13:55:12.952 -------------------Start---------------   : INOUTManagement
+13:57:02.910 Database Responce : Conversion failed when converting date and/or time from character string.
+13:57:24.162 -------------------Start---------------   : INOUTManagement
+13:59:57.980 -------------------Start---------------   : INOUTManagement
+14:00:39.593 Database Responce : Conversion failed when converting date and/or time from character string.
+14:03:21.134 -------------------Start---------------   : INOUTManagement
+14:03:55.375 Database Responce : Error converting data type varchar to numeric.
+14:12:06.447 -------------------Start---------------   : INOUTManagement
+14:19:52.318 -------------------Start---------------   : INOUTManagement
+14:28:36.617 -------------------Start---------------   : INOUTManagement
+14:35:21.802 -------------------Start---------------   : INOUTManagement
+15:14:09.225 -------------------Start---------------   : INOUTManagement
+15:16:23.540 -------------------Start---------------   : INOUTManagement
+15:16:43.448 Database Responce : Incorrect syntax near 'SFT_TRANSORDER_LINE'.
+15:17:30.557 -------------------Start---------------   : INOUTManagement
+15:17:41.974 Database Responce : Incorrect syntax near 'SFT_TRANSORDER_LINE'.
+15:18:46.609 -------------------Start---------------   : INOUTManagement
+15:24:54.770 -------------------Start---------------   : INOUTManagement
+15:25:07.599 Database Responce : Incorrect syntax near 'SFT_TRANSORDER_LINE'.
+15:28:13.549 -------------------Start---------------   : INOUTManagement
+15:29:37.338 -------------------Start---------------   : INOUTManagement
+15:44:03.644 -------------------Start---------------   : INOUTManagement
+15:55:16.526 -------------------Start---------------   : INOUTManagement
+15:58:50.916 -------------------Start---------------   : INOUTManagement
+16:00:08.340 Database Responce : Error converting data type varchar to numeric.
+16:07:21.931 -------------------Start---------------   : INOUTManagement
+16:08:04.385 Database Responce : Error converting data type varchar to numeric.
+16:13:37.657 -------------------Start---------------   : INOUTManagement
+16:20:30.480 -------------------Start---------------   : INOUTManagement
+16:49:02.957 -------------------Start---------------   : INOUTManagement
+16:50:07.612 Database Responce : Error converting data type varchar to numeric.
+16:59:48.346 -------------------Start---------------   : INOUTManagement
+17:00:57.625 Database Responce : Error converting data type varchar to numeric.
+17:06:09.906 -------------------Start---------------   : INOUTManagement
+17:06:33.578 Database Responce : Error converting data type varchar to numeric.

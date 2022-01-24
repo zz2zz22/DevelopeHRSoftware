@@ -1,0 +1,15 @@
+13:49:40.040 dasdsad : dasdadasddsda
+13:54:41.469 dasdsad : dasdadasddsda
+14:37:00.189 dasdsad : dasdadasddsda
+14:41:58.962 dasdsad : dasdadasddsda
+15:30:26.114 dasdsad : dasdadasddsda
+15:32:09.040 dasdsad : dasdadasddsda
+15:44:13.651 dasdsad : dasdadasddsda
+15:49:45.698 dasdsad : dasdadasddsda
+16:21:00.008 dasdsad : dasdadasddsda
+16:58:46.683 dasdsad : dasdadasddsda
+16:59:22.773 ExportCustomsDecalaration(string PathSave,DataTable dtexport) : export fail
+17:01:34.154 dasdsad : dasdadasddsda
+17:02:24.690 dasdsad : dasdadasddsda
+17:04:39.301 dasdsad : dasdadasddsda
+17:08:27.750 dasdsad : dasdadasddsda

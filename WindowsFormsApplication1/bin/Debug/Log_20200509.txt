@@ -1,0 +1,6 @@
+08:43:31.643 btn_PrintQRCode_Click(object sender, EventArgs e) : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+08:45:01.367 Database Responce : 
+10:38:47.460  public DataTable GetDataSFTTRANSORDER(DataTable ERPPQC, DataTable TRANSORDERLINE) : There is no row at position 0.
+10:38:47.513 Database Responce : 
+10:38:47.539 UpdateOrInsert(DataTable dtERPPQC) : Object reference not set to an instance of an object.

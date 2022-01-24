@@ -1,0 +1,2 @@
+08:43:40.897 Dictionary<string,string> GetNameTranslate (LanguageEnum Language, string FunctionGroup, string FunctionName) : 'name' argument cannot be null.
+Parameter name: name

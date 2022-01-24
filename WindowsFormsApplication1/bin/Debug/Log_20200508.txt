@@ -1,0 +1,15 @@
+09:08:39.733 Database Responce : 
+09:08:39.750 InsertLOTForFinishedGoods : 
+09:08:39.777 Database Responce : 
+09:08:39.785 InsertLOTForFinishedGoods : 
+10:15:51.937 btn_AddPQCOutStock_Click(object sender, EventArgs e) : Column 'PO' does not belong to table .
+10:37:14.405 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+10:37:14.428 Database Responce : 
+15:19:53.408 Database Responce : Incorrect syntax near 'wherer'.
+15:22:24.806 Database Responce : Incorrect syntax near 'setOUTQTY'.
+15:23:32.788 Database Responce : Incorrect syntax near 'wherer'.
+15:24:35.380 Database Responce : Incorrect syntax near the keyword 'and'.
+16:01:53.767 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+16:01:54.145 Database Responce : 
+16:07:07.918 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+16:07:07.991 Database Responce : 

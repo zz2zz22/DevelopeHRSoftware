@@ -1,0 +1,4 @@
+13:32:40.288 Drawing chart  : Object reference not set to an instance of an object.
+13:32:41.313 Drawing chart  : Object reference not set to an instance of an object.
+13:32:42.454 Drawing chart  : Object reference not set to an instance of an object.
+13:32:43.330 Drawing chart  : Object reference not set to an instance of an object.

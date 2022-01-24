@@ -1,0 +1,8 @@
+10:21:08.022 UpdateSFCTAForFinishedGoods(FinishedGoodsItems fgItems, string TA003) : Column 'ProductCode' does not belong to table .
+13:44:20.575  public DataTable GetDataSFTTRANSORDER(DataTable ERPPQC, DataTable TRANSORDERLINE) : Column 'TL009' does not belong to table .
+13:50:32.124 Database Responce : 
+13:50:59.359 Database Responce : 
+13:54:42.862 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+13:54:42.904 Database Responce : 
+13:55:08.543 DataTable GetDataTableLOT(DataTable ERPPQC,DataTable TRansOrderLine) : Specified cast is not valid.
+13:55:08.559 Database Responce : 

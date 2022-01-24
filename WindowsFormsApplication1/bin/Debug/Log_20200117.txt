@@ -1,0 +1,76 @@
+08:32:49.187 -------------------Start---------------   : INOUTManagement
+08:32:49.347 Start : 
+08:36:37.206 -------------------Start---------------   : INOUTManagement
+08:42:40.457 -------------------Start---------------   : INOUTManagement
+08:46:29.168 -------------------Start---------------   : INOUTManagement
+08:52:22.222 -------------------Start---------------   : INOUTManagement
+08:55:49.816 -------------------Start---------------   : INOUTManagement
+09:01:29.537 -------------------Start---------------   : INOUTManagement
+09:20:01.788 -------------------Start---------------   : INOUTManagement
+09:20:09.697 Scan Purchase receipt code : sA331-19120002;ABL0004;1,000.00;28/12/2021;L0001e
+09:20:18.985 Scan location complete : Y12;B25;
+09:20:57.282 Stock-In Receipt Code: : 3401-20010031
+09:21:15.410 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+09:21:23.338 Scan location complete : Y12;B25;
+09:21:49.582 Insert next lot : complete
+09:25:00.281 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+09:25:08.781 Scan location complete : Y01;I;
+09:25:14.374 Stock-In Receipt Code: : 3401-20010032
+09:50:15.088 -------------------Start---------------   : INOUTManagement
+09:53:33.157 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+09:53:43.443 Scan location complete : Y12;B15;
+09:53:50.760 Insert next lot : complete
+09:53:54.778 Scan Purchase receipt code : sA331-19120002;ABL0004;1,000.00;28/12/2021;L0001e
+09:54:06.277 Scan location complete : Y12;B07;
+09:54:09.036 Insert next lot : complete
+09:54:11.113 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+09:54:36.943 Scan location complete : Y12;B07;
+09:54:44.600 Insert next lot : complete
+09:54:48.134 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+09:54:51.435 Scan location complete : Y12;B07;
+09:54:53.056 Insert next lot : complete
+09:54:56.464 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+09:55:06.550 Scan location complete : Y12;B07;
+09:56:33.196 Insert next lot : complete
+09:56:39.713 Scan Purchase receipt code : sA331-19120002;ABL0004;1,000.00;28/12/2021;L0001e
+09:56:46.590 Scan location complete : Y12;B07;
+09:57:03.211 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+09:57:08.140 Scan location complete : Y12;B07;
+09:57:21.623 Stock-In Receipt Code: : 3401-20010033
+10:01:46.035 -------------------Start---------------   : INOUTManagement
+10:17:14.911 -------------------Start---------------   : INOUTManagement
+10:20:31.714 Stock-out receipt complete : 1201-20011051
+10:26:04.366 Stock-out receipt complete : 1102-20010250
+10:28:45.798 Stock-out receipt complete : 1102-20010250
+10:31:01.411 Stock-out receipt complete : 1201-20011051
+10:45:36.612 -------------------Start---------------   : INOUTManagement
+10:45:55.785 Stock-out receipt complete : 1202-20010134
+10:52:38.997 -------------------Start---------------   : INOUTManagement
+10:59:14.817 Stock-out receipt complete : 1201-20011055
+11:10:02.280 Stock-out receipt complete : 1203-20010034
+11:26:27.162 -------------------Start---------------   : INOUTManagement
+11:44:55.682 You are picking wrong product and lot : 
+13:07:43.197 -------------------Start---------------   : INOUTManagement
+13:12:13.061 Scan QR material : s;YHTVE-E0330;1,000.00;17/01/2020;H135JB8003;e
+13:12:43.058 Scan QR location (Stock-out) complete : sY12;B13;e
+13:12:53.295 Scan QR material : s;YHTVE-E0330;1,000.00;17/01/2020;H135JB8003;e
+13:16:18.486 Scan QR material : s;YHTVE-E0330;1,000.00;17/01/2020;H135JB8003;e
+13:16:22.093 Scan QR location (Stock-out) complete : sY12;B13;e
+13:16:35.989 Stock-out receipt complete : 
+14:22:10.989 -------------------Start---------------   : INOUTManagement
+14:48:09.308 -------------------Start---------------   : INOUTManagement
+14:48:15.861 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+14:48:23.619 Scan location complete : Y12;B13;
+14:48:33.032 Stock-In Receipt Code: : 3401-20010508
+14:54:45.779 -------------------Start---------------   : INOUTManagement
+14:55:07.024 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+14:56:35.651 -------------------Start---------------   : INOUTManagement
+14:56:40.507 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+15:00:49.492 -------------------Start---------------   : INOUTManagement
+15:00:58.493 Scan Purchase receipt code : sA331-19120002;APPE00006;10.00;04/01/2022;L005e
+15:01:38.152 Scan location complete : Y12;B13;
+15:01:48.594 Scan Purchase receipt code : sA331-19120002;ABL0004;1,000.00;28/12/2021;L0001e
+15:01:51.197 Scan location complete : Y12;B13;
+15:02:35.730 Stock-In Receipt Code: : 3401-20010034
+15:04:44.327 -------------------Start---------------   : INOUTManagement
+15:05:12.911 Stock-out receipt complete : 1102-20010014

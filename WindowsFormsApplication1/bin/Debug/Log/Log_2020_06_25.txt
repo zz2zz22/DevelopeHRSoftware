@@ -1,0 +1,6 @@
+[11:45:45.740] Export MQC report to excel sucessfull
+[13:17:51.266] GetMQCItemSummaries(DateTime from, DateTime to, string site, string process)
+[13:23:19.300] Export MQC report to excel sucessfull
+[13:25:58.943] Export MQC report to excel sucessfull
+[13:29:33.363] Export MQC report to excel sucessfull
+[13:31:40.163] Export MQC report to excel sucessfull

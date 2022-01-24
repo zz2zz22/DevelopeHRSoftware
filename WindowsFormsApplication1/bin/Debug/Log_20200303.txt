@@ -1,0 +1,38 @@
+09:04:13.764 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:13.842 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:13.905 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:13.951 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:13.998 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:14.045 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:33.843 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:33.875 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:33.906 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:33.937 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:33.968 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:34.000 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:37.108 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:37.155 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:37.202 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:37.248 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:37.280 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+09:04:37.327 Database Responce : Cannot open database "SOT" requested by the login. The login failed.
+Login failed for user 'soft'.
+14:05:25.969 List<AttendanceDept> GetAttendanceDepts() : Column 'Note' does not belong to table .
+14:05:52.382 List<AttendanceDept> GetAttendanceDepts() : Column 'Note' does not belong to table .

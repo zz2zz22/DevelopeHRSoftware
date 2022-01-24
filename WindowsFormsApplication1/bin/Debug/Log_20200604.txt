@@ -1,0 +1,10 @@
+08:35:02.504 Database Responce : Error converting data type varchar to numeric.
+08:38:24.156 Database Responce : Error converting data type varchar to numeric.
+13:05:09.329 Database Responce : Object reference not set to an instance of an object.
+13:05:09.391 Database Responce : Object reference not set to an instance of an object.
+13:55:56.941 UpdateDataFromExcel(DataTable dtExcel) : Column 'Khoi luong thung' does not belong to table .
+13:57:56.317 Database Responce : not suscessful
+14:15:25.986 Database Responce : Object reference not set to an instance of an object.
+14:15:26.017 Database Responce : Object reference not set to an instance of an object.
+15:39:16.736 -------------------Start---------------   : INOUTManagement
+15:43:10.950 Export packing list and picking list : Column 'Product' does not belong to table .
