@@ -855,6 +855,7 @@ namespace WindowsFormsApplication1.Class
                         xlWorkSheet.Cells[5 + i + countGroup, "M"] = Indirect;
                         xlWorkSheet.Cells[5 + i + countGroup, "N"] = attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.DayShift.absence).Sum() + attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.NightShift.absence).Sum();
                         xlWorkSheet.Cells[5 + i + countGroup, "O"] = attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.DayShift.attendanceActual).Sum() + attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.NightShift.attendanceActual).Sum();
+                        xlWorkSheet.Cells[5 + i + countGroup, "P"] = attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.SeasonalWorkerCount).Sum();
                         xlWorkSheet.Cells[5 + i + countGroup + 1, "J"] = ((double)(Indirect / Total)).ToString("P1");
                         range = xlWorkSheet.Range[xlWorkSheet.Cells[5 + i + countGroup + 1, "A"], xlWorkSheet.Cells[5 + i + countGroup + 1, "I"]];
                         range.Merge();
@@ -879,6 +880,7 @@ namespace WindowsFormsApplication1.Class
                         xlWorkSheet.Cells[5 + i + countGroup, "M"] = Indirect;
                         xlWorkSheet.Cells[5 + i + countGroup, "N"] = attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.DayShift.absence).Sum() + attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.NightShift.absence).Sum();
                         xlWorkSheet.Cells[5 + i + countGroup, "O"] = attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.DayShift.attendanceActual).Sum() + attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.NightShift.attendanceActual).Sum();
+                        xlWorkSheet.Cells[5 + i + countGroup, "P"] = attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.SeasonalWorkerCount).Sum();
                         xlWorkSheet.Cells[5 + i + countGroup + 1, "J"] = ((double)(Indirect / Total)).ToString("P1");
                         range = xlWorkSheet.Range[xlWorkSheet.Cells[5 + i + countGroup + 1, "A"], xlWorkSheet.Cells[5 + i + countGroup + 1, "I"]];
 
@@ -905,6 +907,8 @@ namespace WindowsFormsApplication1.Class
                         xlWorkSheet.Cells[5 + i + countGroup + 1, "M"] = Indirect;
                         xlWorkSheet.Cells[5 + i + countGroup + 1, "N"] = attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.DayShift.absence).Sum() + attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.NightShift.absence).Sum();
                         xlWorkSheet.Cells[5 + i + countGroup + 1, "O"] = attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.DayShift.attendanceActual).Sum() + attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.NightShift.attendanceActual).Sum();
+                        xlWorkSheet.Cells[5 + i + countGroup + 1, "P"] = attendanceDepts.Where(d => d.BigDeptCode == CurrentDep).Select(d => d.SeasonalWorkerCount).Sum();
+                        
                         xlWorkSheet.Cells[5 + i + countGroup + 2, "J"] = ((double)(Indirect / Total)).ToString("P1");
                         range = xlWorkSheet.Range[xlWorkSheet.Cells[5 + i + countGroup + 2, "A"], xlWorkSheet.Cells[5 + i + countGroup + 2, "I"]];
 
@@ -929,10 +933,12 @@ namespace WindowsFormsApplication1.Class
                     xlWorkSheet.Cells[5 + i + countGroup, "L"] = attendanceDepts[i].LocalWorker.WorkerDirect;
                     xlWorkSheet.Cells[5 + i + countGroup, "M"] = attendanceDepts[i].LocalWorker.WorkerIndirect;
                     xlWorkSheet.Cells[5 + i + countGroup, "K"] = attendanceDepts[i].LocalWorker.TotalWorker;
-                 //   xlWorkSheet.Cells[5 + i + countGroup, "P"] =  attendanceDepts[i].SeannWorkerDayNotID+ attendanceDepts[i].SeannWorkerNightNotID;
+                    xlWorkSheet.Cells[5 + i + countGroup, "P"] = attendanceDepts[i].SeasonalWorkerCount;
+                   // xlWorkSheet.Cells[5 + i + countGroup, "P"] = attendanceDepts[i].SeannWorkerDayNotID + attendanceDepts[i].SeannWorkerNightNotID;
+
                     double SeasonDay = attendanceDepts.Select(d => d.SeasonWorkerDay.attendanceActual).Sum() + attendanceDepts[0].SeannWorkerDayNotID;
                     double SeasonNight = attendanceDepts.Select(d => d.SeasonWorkerNight.attendanceActual).Sum() + attendanceDepts[0].SeannWorkerNightNotID;
-                    xlWorkSheet.Cells[96, "P"] = SeasonDay + SeasonNight;
+                    //xlWorkSheet.Cells[96, "P"] = SeasonDay + SeasonNight;
                     //xlWorkSheet.Cells[91, "Q"] = SeasonDay;
                     //xlWorkSheet.Cells[91, "R"] =  SeasonNight;
                     CurrentDep = attendanceDepts[i].BigDeptCode;

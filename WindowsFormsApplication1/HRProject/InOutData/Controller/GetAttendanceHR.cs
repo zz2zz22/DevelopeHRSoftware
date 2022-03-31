@@ -79,7 +79,7 @@ where   e.State =0 and e.Dept not like '%999%' ");
                     attendance.BigDeptName = dtGetUpCode.Rows[i]["Name"].ToString();
                     DataTable dtDeptDetail = new DataTable();
                     dtDeptDetail = GetCountEmployeeByUpcode(attendance.BigDeptCode);
-                  
+                    
                     for (int j = 0; j < dtDeptDetail.Rows.Count; j++)
                     {
                         AttendanceDept attendance1 = new AttendanceDept();
@@ -92,6 +92,7 @@ where   e.State =0 and e.Dept not like '%999%' ");
                         //else
                         attendance1.DetailDeptName = dtDeptDetail.Rows[j]["LongName"].ToString(); // Vũ chỉnh sửa 14/1/2022 theo task bên HR
                         attendance1.EmployeeOfDept = int.Parse(dtDeptDetail.Rows[j]["countEmployee"].ToString());
+                        List<EmployeeAttendance> seasonalEmployeeAttendancesbyDept = getdataInout.GetEmployeeAttendancesSeasonalbyDept(attendance1.DetailDeptName, date); //attendance1.DetailDeptName
 
                         DataTable dtShift = GetDataTableCountShiftbyDeptShift(attendance1.DetailDeptCode, date.Day);
                         DataTable dtGetShiftWorker = GetDataTableCountShiftbyDept(attendance1.DetailDeptCode, date.Day);
@@ -107,7 +108,7 @@ where   e.State =0 and e.Dept not like '%999%' ");
                             attendance1.LocalWorker.WorkerIndirect = int.Parse(dtGetShiftWorker.Rows[0]["CountInDirect"].ToString());
                             attendance1.LocalWorker.WorkerDirect = attendance1.EmployeeOfDept - attendance1.LocalWorker.WorkerIndirect;
                         }
-
+                        
                         attendance1.LocalWorker.TotalWorker = attendance1.LocalWorker.WorkerIndirect + attendance1.LocalWorker.WorkerDirect;
                         for (int k = 0; k < dtShift.Rows.Count; k++)
                         {
@@ -135,12 +136,14 @@ where   e.State =0 and e.Dept not like '%999%' ");
                         int AbsenceNight = employeeAbsencesNightShift.Where(d => d.DeptCode == attendance1.DetailDeptCode).Count();
                         int attendanceSeasonal = employeeAttendancesSeasonal.Count();
                         int atttenSeasonalNight = employeeAttendancesSeasonalNight.Count();
+                        int attennSeasonalbyDept = seasonalEmployeeAttendancesbyDept.Count();
                         attendance1.NightShift.attendanceActual = AttendanceNight;
                         attendance1.DayShift.attendanceActual = AttendanceDeptDay+ AttendanceDeptDayNotPaipan;
                         attendance1.NightShift.absence = AbsenceNight;
                         attendance1.DayShift.absence = AbsenceDay+AbsenceDayNotPaiPan ;
                         attendance1.SeannWorkerDayNotID = attendanceSeasonal - atttenSeasonalNight;
                         attendance1.SeannWorkerNightNotID = atttenSeasonalNight;
+                        attendance1.SeasonalWorkerCount = attennSeasonalbyDept;
 
                         attendanceDepts.Add(attendance1);
                     }
@@ -154,7 +157,6 @@ where   e.State =0 and e.Dept not like '%999%' ");
             return attendanceDepts;
         }
      
-       
       
         
 

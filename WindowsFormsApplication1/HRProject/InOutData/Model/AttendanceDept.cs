@@ -25,6 +25,7 @@ namespace WindowsFormsApplication1.HRProject.InOutData.Model
         public WorkerType LocalWorker { get; set; }
         public WorkerType ChineseWorker { get; set; }
         public WorkingState Oursource { get; set; }
+        public int SeasonalWorkerCount { get; set; } //Vu chinh task 3
     }
     public class WorkingState
     {
@@ -58,6 +59,8 @@ namespace WindowsFormsApplication1.HRProject.InOutData.Model
         public string Shift { get; set; }
         public string EmpCode { get; set; }
         public string EmpName { get; set; }
+
+        public string Memo { get; set; }
 
     }
     public class EmployeeTimekeeping

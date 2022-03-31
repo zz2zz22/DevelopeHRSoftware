@@ -247,13 +247,13 @@ e.ID  in (select EmpID from Kq_Source where 1=1
             {
                 DataTable dt = new DataTable();
                 StringBuilder stringBuilder = new StringBuilder();
-                stringBuilder.Append(@" select distinct  e.Code,e.Name, e.Dept, z.Name as DeptName, z.Manager from ZlEmployee e
+                stringBuilder.Append(@" select distinct  e.Code, e.Memo, e.Name, e.Dept, z.Name as DeptName, z.Manager from ZlEmployee e
  left join ZlDept z on e.Dept = z.Code
  left join Kq_Source s on s.EmpID = e.ID
  where  e.Dept  like '%999%'   and 
-
+ 
  e.ID  in (select EmpID from Kq_Source where 1=1
-");
+ ");
                 stringBuilder.Append(" and cast(FDateTime as date)  = cast( '" + date.ToString("yyyyMMdd") + "' as date )");
                 stringBuilder.Append("  and convert(char(5), FDateTime, 108) >='00:00:01'  and convert(char(5), FDateTime, 108) < '23:59:00' ) ");
                 stringBuilder.Append("  and cast(FDateTime as date)  = cast( '" + date.ToString("yyyyMMdd") + "' as date )" );
@@ -270,7 +270,6 @@ e.ID  in (select EmpID from Kq_Source where 1=1
                         DeptCode = dt.Rows[i]["Dept"].ToString(),
                         Dept = dt.Rows[i]["DeptName"].ToString(),
                         Manager = dt.Rows[i]["Manager"].ToString(),
-                        
                     });
                 }
             }
@@ -278,6 +277,47 @@ e.ID  in (select EmpID from Kq_Source where 1=1
             {
 
                 SystemLog.Output(SystemLog.MSG_TYPE.Err, "GetEmployeeAttendances(DateTime date)", ex.Message);
+            }
+            return employeeAttendances;
+        }
+
+        public List<EmployeeAttendance> GetEmployeeAttendancesSeasonalbyDept(string Dept, DateTime date)
+        {
+            List<EmployeeAttendance> employeeAttendances = new List<EmployeeAttendance>();
+            try
+            {
+                DataTable dt = new DataTable();
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.Append(@" select distinct  e.Code, e.Memo, e.Name, e.Dept, z.Name as DeptName, z.Manager from ZlEmployee e
+ left join ZlDept z on e.Dept = z.Code
+ left join Kq_Source s on s.EmpID = e.ID
+ where  e.Dept  like '%999%'   and 
+ e.Memo like '%" + Dept + "%' and e.State = 0 and " +
+ "e.ID  in (select EmpID from Kq_Source where 1=1");
+                stringBuilder.Append(" and cast(FDateTime as date)  = cast( '" + date.ToString("yyyyMMdd") + "' as date )");
+                stringBuilder.Append("  and convert(char(5), FDateTime, 108) >='00:00:00'  and convert(char(5), FDateTime, 108) < '23:59:59' ) ");
+                stringBuilder.Append("  and cast(FDateTime as date)  = cast( '" + date.ToString("yyyyMMdd") + "' as date )");
+
+                SqlHR sqlHR = new SqlHR();
+                sqlHR.sqlDataAdapterFillDatatable(stringBuilder.ToString(), ref dt);
+                for (int i = 0; i < dt.Rows.Count; i++)
+                {
+                    employeeAttendances.Add(new EmployeeAttendance
+                    {
+                        Date = date.ToString("dd.MM.yyyy"),
+                        EmpCode = dt.Rows[i]["Code"].ToString(),
+                        EmpName = dt.Rows[i]["Name"].ToString(),
+                        DeptCode = dt.Rows[i]["Dept"].ToString(),
+                        Dept = dt.Rows[i]["DeptName"].ToString(),
+                        Manager = dt.Rows[i]["Manager"].ToString(),
+                        Memo = dt.Rows[i]["Memo"].ToString(),
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+
+                SystemLog.Output(SystemLog.MSG_TYPE.Err, "GetSeasonalEmployeeAttendancesbyDept(string Dept, DateTime date)", ex.Message);
             }
             return employeeAttendances;
         }

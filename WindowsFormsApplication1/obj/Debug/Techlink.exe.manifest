@@ -175,14 +175,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Techlink.exe" size="21222912">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Techlink.exe" size="21225984">
       <assemblyIdentity name="Techlink" version="1.0.0.21" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>l7r6qkKMAve4cgIiRtcMnebLatVZ7Y/ku1yWG+0xpls=</dsig:DigestValue>
+        <dsig:DigestValue>f8o3QBil26AshRKlCopst9+b4EOUWstE2baAfxV/ZVw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -255,13 +255,13 @@
       <dsig:DigestValue>pBAnrUmtouKAtL4bLsqt2QpwvM22mgU6gfXA9EPtciw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Resources\AttendanceDaily.xlsx" size="19889">
+  <file name="Resources\AttendanceDaily.xlsx" size="20038">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>bKgnwwigeuwmM6SO7TBD/KKby2TaBmUIqrVgM2Xas80=</dsig:DigestValue>
+      <dsig:DigestValue>SIN8qK0dgYs4Wl3WDktyAgwHOpLS64BOySN58iwMVOY=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\Backlog.png" size="6723">
