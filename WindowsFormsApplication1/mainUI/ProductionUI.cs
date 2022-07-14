@@ -143,15 +143,17 @@ namespace WindowsFormsApplication1.mainUI
             planningMain.WindowState = FormWindowState.Maximized;
             planningMain.Show();
         }
-
-
-     
-
         private void btn_customsDeclaration_Click(object sender, EventArgs e)
         {
             CustomsDeclarasion.View.DeliveryOrderExport deliveryOrderExport = new CustomsDeclarasion.View.DeliveryOrderExport();
             deliveryOrderExport.WindowState = FormWindowState.Maximized;
             deliveryOrderExport.Show();
+        }
+
+        private void btChart_Click(object sender, EventArgs e)
+        {
+            MainForm mf = new MainForm();
+            mf.ShowDialog();
         }
     }
 }

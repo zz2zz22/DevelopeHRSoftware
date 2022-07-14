@@ -41,6 +41,7 @@
             this.btn_Planning = new System.Windows.Forms.Button();
             this.btn_MQC = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btChart = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +51,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.groupBox1.Controls.Add(this.btChart);
             this.groupBox1.Controls.Add(this.btn_customsDeclaration);
             this.groupBox1.Controls.Add(this.btn_Hose);
             this.groupBox1.Controls.Add(this.btn_TypingInfor);
@@ -61,9 +63,11 @@
             this.groupBox1.Controls.Add(this.btn_wms);
             this.groupBox1.Controls.Add(this.btn_Planning);
             this.groupBox1.Controls.Add(this.btn_MQC);
-            this.groupBox1.Location = new System.Drawing.Point(5, 44);
+            this.groupBox1.Location = new System.Drawing.Point(4, 36);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(872, 397);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(654, 323);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             // 
@@ -74,10 +78,9 @@
             this.btn_customsDeclaration.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_customsDeclaration.Image = global::WindowsFormsApplication1.Properties.Resources.Customs_64;
             this.btn_customsDeclaration.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_customsDeclaration.Location = new System.Drawing.Point(32, 284);
-            this.btn_customsDeclaration.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_customsDeclaration.Location = new System.Drawing.Point(24, 231);
             this.btn_customsDeclaration.Name = "btn_customsDeclaration";
-            this.btn_customsDeclaration.Size = new System.Drawing.Size(225, 72);
+            this.btn_customsDeclaration.Size = new System.Drawing.Size(169, 58);
             this.btn_customsDeclaration.TabIndex = 38;
             this.btn_customsDeclaration.Text = "Customs Declaration";
             this.btn_customsDeclaration.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -92,10 +95,9 @@
             this.btn_Hose.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_Hose.Image = global::WindowsFormsApplication1.Properties.Resources.ProductionPlan;
             this.btn_Hose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Hose.Location = new System.Drawing.Point(598, 198);
-            this.btn_Hose.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Hose.Location = new System.Drawing.Point(448, 161);
             this.btn_Hose.Name = "btn_Hose";
-            this.btn_Hose.Size = new System.Drawing.Size(223, 69);
+            this.btn_Hose.Size = new System.Drawing.Size(167, 56);
             this.btn_Hose.TabIndex = 37;
             this.btn_Hose.Text = "PMC planning (Hose)";
             this.btn_Hose.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -110,10 +112,9 @@
             this.btn_TypingInfor.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_TypingInfor.Image = global::WindowsFormsApplication1.Properties.Resources.materialAlarm_64;
             this.btn_TypingInfor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_TypingInfor.Location = new System.Drawing.Point(598, 107);
-            this.btn_TypingInfor.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_TypingInfor.Location = new System.Drawing.Point(448, 87);
             this.btn_TypingInfor.Name = "btn_TypingInfor";
-            this.btn_TypingInfor.Size = new System.Drawing.Size(223, 72);
+            this.btn_TypingInfor.Size = new System.Drawing.Size(167, 58);
             this.btn_TypingInfor.TabIndex = 36;
             this.btn_TypingInfor.Text = "Product Information";
             this.btn_TypingInfor.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -128,10 +129,9 @@
             this.btn_Oven.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_Oven.Image = global::WindowsFormsApplication1.Properties.Resources.oven_64;
             this.btn_Oven.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Oven.Location = new System.Drawing.Point(600, 23);
-            this.btn_Oven.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Oven.Location = new System.Drawing.Point(450, 19);
             this.btn_Oven.Name = "btn_Oven";
-            this.btn_Oven.Size = new System.Drawing.Size(221, 72);
+            this.btn_Oven.Size = new System.Drawing.Size(166, 58);
             this.btn_Oven.TabIndex = 35;
             this.btn_Oven.Text = "OVEN";
             this.btn_Oven.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -146,10 +146,9 @@
             this.btn_FinishedGoods.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_FinishedGoods.Image = global::WindowsFormsApplication1.Properties.Resources.finishedGoods_64;
             this.btn_FinishedGoods.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_FinishedGoods.Location = new System.Drawing.Point(32, 195);
-            this.btn_FinishedGoods.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_FinishedGoods.Location = new System.Drawing.Point(24, 158);
             this.btn_FinishedGoods.Name = "btn_FinishedGoods";
-            this.btn_FinishedGoods.Size = new System.Drawing.Size(225, 72);
+            this.btn_FinishedGoods.Size = new System.Drawing.Size(169, 58);
             this.btn_FinishedGoods.TabIndex = 34;
             this.btn_FinishedGoods.Text = "Stock in / out (Finished goods)";
             this.btn_FinishedGoods.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -164,10 +163,9 @@
             this.btn_backlogReport.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_backlogReport.Image = global::WindowsFormsApplication1.Properties.Resources.Backlog;
             this.btn_backlogReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_backlogReport.Location = new System.Drawing.Point(313, 107);
-            this.btn_backlogReport.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_backlogReport.Location = new System.Drawing.Point(235, 87);
             this.btn_backlogReport.Name = "btn_backlogReport";
-            this.btn_backlogReport.Size = new System.Drawing.Size(223, 72);
+            this.btn_backlogReport.Size = new System.Drawing.Size(167, 58);
             this.btn_backlogReport.TabIndex = 32;
             this.btn_backlogReport.Text = "Back-log Report";
             this.btn_backlogReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -182,10 +180,9 @@
             this.btn_Reliability.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_Reliability.Image = global::WindowsFormsApplication1.Properties.Resources.Reliability1;
             this.btn_Reliability.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Reliability.Location = new System.Drawing.Point(32, 107);
-            this.btn_Reliability.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Reliability.Location = new System.Drawing.Point(24, 87);
             this.btn_Reliability.Name = "btn_Reliability";
-            this.btn_Reliability.Size = new System.Drawing.Size(225, 72);
+            this.btn_Reliability.Size = new System.Drawing.Size(169, 58);
             this.btn_Reliability.TabIndex = 31;
             this.btn_Reliability.Text = "Reliability Report";
             this.btn_Reliability.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -200,10 +197,9 @@
             this.btn_MQCReview.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_MQCReview.Image = global::WindowsFormsApplication1.Properties.Resources.Analysis_64;
             this.btn_MQCReview.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_MQCReview.Location = new System.Drawing.Point(313, 22);
-            this.btn_MQCReview.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_MQCReview.Location = new System.Drawing.Point(235, 18);
             this.btn_MQCReview.Name = "btn_MQCReview";
-            this.btn_MQCReview.Size = new System.Drawing.Size(223, 72);
+            this.btn_MQCReview.Size = new System.Drawing.Size(167, 58);
             this.btn_MQCReview.TabIndex = 29;
             this.btn_MQCReview.Text = "MQC Report";
             this.btn_MQCReview.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -218,10 +214,9 @@
             this.btn_wms.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_wms.Image = global::WindowsFormsApplication1.Properties.Resources.warehouse_64;
             this.btn_wms.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_wms.Location = new System.Drawing.Point(313, 195);
-            this.btn_wms.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_wms.Location = new System.Drawing.Point(235, 158);
             this.btn_wms.Name = "btn_wms";
-            this.btn_wms.Size = new System.Drawing.Size(225, 72);
+            this.btn_wms.Size = new System.Drawing.Size(169, 58);
             this.btn_wms.TabIndex = 28;
             this.btn_wms.Text = "Stock in / out (Raw material)";
             this.btn_wms.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -236,10 +231,9 @@
             this.btn_Planning.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_Planning.Image = global::WindowsFormsApplication1.Properties.Resources.ProductionPlan;
             this.btn_Planning.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Planning.Location = new System.Drawing.Point(600, 287);
-            this.btn_Planning.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_Planning.Location = new System.Drawing.Point(450, 233);
             this.btn_Planning.Name = "btn_Planning";
-            this.btn_Planning.Size = new System.Drawing.Size(223, 69);
+            this.btn_Planning.Size = new System.Drawing.Size(167, 56);
             this.btn_Planning.TabIndex = 27;
             this.btn_Planning.Text = "PMC planning (Component)";
             this.btn_Planning.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -254,10 +248,9 @@
             this.btn_MQC.ForeColor = System.Drawing.Color.DarkOliveGreen;
             this.btn_MQC.Image = global::WindowsFormsApplication1.Properties.Resources.MQC_64;
             this.btn_MQC.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_MQC.Location = new System.Drawing.Point(32, 23);
-            this.btn_MQC.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_MQC.Location = new System.Drawing.Point(24, 19);
             this.btn_MQC.Name = "btn_MQC";
-            this.btn_MQC.Size = new System.Drawing.Size(225, 72);
+            this.btn_MQC.Size = new System.Drawing.Size(169, 58);
             this.btn_MQC.TabIndex = 24;
             this.btn_MQC.Text = "MQC (real-time data)";
             this.btn_MQC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -272,23 +265,40 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(12, 6);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Location = new System.Drawing.Point(9, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(33, 31);
+            this.button1.Size = new System.Drawing.Size(25, 25);
             this.button1.TabIndex = 19;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btChart
+            // 
+            this.btChart.BackColor = System.Drawing.Color.White;
+            this.btChart.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.btChart.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.btChart.Image = global::WindowsFormsApplication1.Properties.Resources.Analysis_64;
+            this.btChart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btChart.Location = new System.Drawing.Point(235, 233);
+            this.btChart.Name = "btChart";
+            this.btChart.Size = new System.Drawing.Size(167, 58);
+            this.btChart.TabIndex = 39;
+            this.btChart.Text = "MQC/PQC Chart";
+            this.btChart.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btChart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btChart.UseVisualStyleBackColor = false;
+            this.btChart.Click += new System.EventHandler(this.btChart_Click);
+            // 
             // ProductionUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(882, 453);
+            this.ClientSize = new System.Drawing.Size(662, 368);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ProductionUI";
             this.Text = "ProductionUI";
             this.groupBox1.ResumeLayout(false);
@@ -310,5 +320,6 @@
         private System.Windows.Forms.Button btn_MQC;
         private System.Windows.Forms.Button btn_Hose;
         private System.Windows.Forms.Button btn_customsDeclaration;
+        private System.Windows.Forms.Button btChart;
     }
 }
