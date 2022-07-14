@@ -153,8 +153,7 @@ namespace WindowsFormsApplication1
 
         private void btClose_Click(object sender, EventArgs e)
         {
-            Dispose();
-            Application.Exit();
+            Close();
         }
 
         private void MainForm_KeyDown(object sender, KeyEventArgs e)
