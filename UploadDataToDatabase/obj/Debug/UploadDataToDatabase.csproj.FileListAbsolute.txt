@@ -161,7 +161,6 @@ C:\Users\admin\Documents\GitHub\DevelopeHRSoftware\UploadDataToDatabase\bin\Debu
 C:\Users\admin\Documents\GitHub\DevelopeHRSoftware\UploadDataToDatabase\bin\Debug\TLMS Report.exe.config
 C:\Users\admin\Documents\GitHub\DevelopeHRSoftware\UploadDataToDatabase\bin\Debug\TLMS Report.exe
 C:\Users\admin\Documents\GitHub\DevelopeHRSoftware\UploadDataToDatabase\bin\Debug\TLMS Report.pdb
-C:\Users\admin\Documents\GitHub\DevelopeHRSoftware\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.AssemblyReference.cache
 C:\Users\admin\Documents\GitHub\DevelopeHRSoftware\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.csproj.ResolveComReference.cache
 C:\Users\admin\Documents\GitHub\DevelopeHRSoftware\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.CommonForm.resources
 C:\Users\admin\Documents\GitHub\DevelopeHRSoftware\UploadDataToDatabase\obj\Debug\UploadDataToDatabase.Form1.resources
