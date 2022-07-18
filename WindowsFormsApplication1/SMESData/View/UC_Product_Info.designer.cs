@@ -45,11 +45,12 @@ namespace WindowsFormsApplication1
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.MQCChart = new Bunifu.Charts.WinForms.ChartTypes.BunifuPieChart(this.components);
             this.PQCChart = new Bunifu.Charts.WinForms.ChartTypes.BunifuPieChart(this.components);
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -80,7 +81,7 @@ namespace WindowsFormsApplication1
             this.btStart = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btStop = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.tbpnInfo = new System.Windows.Forms.TableLayoutPanel();
             this.lb8 = new Bunifu.UI.WinForms.BunifuLabel();
             this.dtpChart = new Bunifu.UI.WinForms.BunifuDatePicker();
             this.lb1 = new Bunifu.UI.WinForms.BunifuLabel();
@@ -93,20 +94,22 @@ namespace WindowsFormsApplication1
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbLine = new Bunifu.UI.WinForms.BunifuLabel();
-            this.lbNGR = new Bunifu.UI.WinForms.BunifuLabel();
             this.tbNGA = new Bunifu.UI.WinForms.BunifuTextBox();
             this.lbRWR = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbRWA = new Bunifu.UI.WinForms.BunifuLabel();
-            this.btFix = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.lbOP = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbRW = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbNG = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbTt = new Bunifu.UI.WinForms.BunifuLabel();
             this.lbTarget = new Bunifu.UI.WinForms.BunifuLabel();
+            this.lbNGR = new Bunifu.UI.WinForms.BunifuLabel();
+            this.btFix = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.btSI = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btSearch = new Bunifu.UI.WinForms.BunifuImageButton();
             this.tbSearch = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.tbpnFix = new System.Windows.Forms.TableLayoutPanel();
+            this.btSI = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.btFixAll = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_MQC_PD)).BeginInit();
@@ -119,8 +122,9 @@ namespace WindowsFormsApplication1
             ((System.ComponentModel.ISupportInitialize)(this.nbH)).BeginInit();
             this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel6.SuspendLayout();
+            this.tbpnInfo.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
+            this.tbpnFix.SuspendLayout();
             this.SuspendLayout();
             // 
             // MQCChart
@@ -269,8 +273,8 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 540F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 540F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1785, 540);
             this.tableLayoutPanel2.TabIndex = 70;
             // 
@@ -306,7 +310,7 @@ namespace WindowsFormsApplication1
             this.lbWar1.Location = new System.Drawing.Point(180, 200);
             this.lbWar1.Name = "lbWar1";
             this.lbWar1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbWar1.Size = new System.Drawing.Size(225, 73);
+            this.lbWar1.Size = new System.Drawing.Size(283, 90);
             this.lbWar1.TabIndex = 51;
             this.lbWar1.Text = "No Data";
             this.lbWar1.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -322,7 +326,7 @@ namespace WindowsFormsApplication1
             this.lbMdl.Location = new System.Drawing.Point(3, 9);
             this.lbMdl.Name = "lbMdl";
             this.lbMdl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbMdl.Size = new System.Drawing.Size(90, 31);
+            this.lbMdl.Size = new System.Drawing.Size(112, 38);
             this.lbMdl.TabIndex = 50;
             this.lbMdl.Text = "Model :";
             this.lbMdl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -338,7 +342,7 @@ namespace WindowsFormsApplication1
             this.lbModel.Location = new System.Drawing.Point(99, 9);
             this.lbModel.Name = "lbModel";
             this.lbModel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbModel.Size = new System.Drawing.Size(14, 31);
+            this.lbModel.Size = new System.Drawing.Size(18, 38);
             this.lbModel.TabIndex = 49;
             this.lbModel.Text = "..";
             this.lbModel.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -355,7 +359,7 @@ namespace WindowsFormsApplication1
             this.lbQC.Location = new System.Drawing.Point(507, 476);
             this.lbQC.Name = "lbQC";
             this.lbQC.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbQC.Size = new System.Drawing.Size(106, 49);
+            this.lbQC.Size = new System.Drawing.Size(132, 62);
             this.lbQC.TabIndex = 47;
             this.lbQC.Text = "MQC";
             this.lbQC.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -372,7 +376,7 @@ namespace WindowsFormsApplication1
             this.lbNG1.Margin = new System.Windows.Forms.Padding(2);
             this.lbNG1.Name = "lbNG1";
             this.lbNG1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbNG1.Size = new System.Drawing.Size(6, 15);
+            this.lbNG1.Size = new System.Drawing.Size(8, 17);
             this.lbNG1.TabIndex = 46;
             this.lbNG1.Text = "..";
             this.lbNG1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -390,7 +394,7 @@ namespace WindowsFormsApplication1
             this.lbRW1.Margin = new System.Windows.Forms.Padding(2);
             this.lbRW1.Name = "lbRW1";
             this.lbRW1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbRW1.Size = new System.Drawing.Size(6, 15);
+            this.lbRW1.Size = new System.Drawing.Size(8, 17);
             this.lbRW1.TabIndex = 45;
             this.lbRW1.Text = "..";
             this.lbRW1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -408,7 +412,7 @@ namespace WindowsFormsApplication1
             this.lbOP1.Margin = new System.Windows.Forms.Padding(2);
             this.lbOP1.Name = "lbOP1";
             this.lbOP1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbOP1.Size = new System.Drawing.Size(6, 15);
+            this.lbOP1.Size = new System.Drawing.Size(8, 17);
             this.lbOP1.TabIndex = 44;
             this.lbOP1.Text = "..";
             this.lbOP1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -434,7 +438,7 @@ namespace WindowsFormsApplication1
             this.linePCanvas1.LegendRevese = false;
             this.linePCanvas1.LegendRTL = false;
             this.linePCanvas1.Location = new System.Drawing.Point(-2, 63);
-            this.linePCanvas1.Margin = new System.Windows.Forms.Padding(4);
+            this.linePCanvas1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.linePCanvas1.Name = "linePCanvas1";
             this.linePCanvas1.ShowXAxis = false;
             this.linePCanvas1.ShowYAxis = false;
@@ -693,10 +697,10 @@ namespace WindowsFormsApplication1
             this.lblTime.Cursor = System.Windows.Forms.Cursors.Default;
             this.lblTime.CursorType = System.Windows.Forms.Cursors.Default;
             this.lblTime.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
-            this.lblTime.Location = new System.Drawing.Point(282, 156);
+            this.lblTime.Location = new System.Drawing.Point(280, 156);
             this.lblTime.Name = "lblTime";
             this.lblTime.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTime.Size = new System.Drawing.Size(15, 20);
+            this.lblTime.Size = new System.Drawing.Size(18, 25);
             this.lblTime.TabIndex = 41;
             this.lblTime.Text = "...";
             this.lblTime.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -741,7 +745,7 @@ namespace WindowsFormsApplication1
             this.lbBox.Location = new System.Drawing.Point(24, 15);
             this.lbBox.Name = "lbBox";
             this.lbBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbBox.Size = new System.Drawing.Size(106, 44);
+            this.lbBox.Size = new System.Drawing.Size(132, 52);
             this.lbBox.TabIndex = 6;
             this.lbBox.Text = "Choose Data \r\nUpdate Time \r\n";
             this.lbBox.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -757,7 +761,7 @@ namespace WindowsFormsApplication1
             this.lbS.Location = new System.Drawing.Point(83, 172);
             this.lbS.Name = "lbS";
             this.lbS.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbS.Size = new System.Drawing.Size(55, 19);
+            this.lbS.Size = new System.Drawing.Size(68, 23);
             this.lbS.TabIndex = 5;
             this.lbS.Text = "Seconds";
             this.lbS.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -773,7 +777,7 @@ namespace WindowsFormsApplication1
             this.lbM.Location = new System.Drawing.Point(83, 129);
             this.lbM.Name = "lbM";
             this.lbM.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbM.Size = new System.Drawing.Size(56, 19);
+            this.lbM.Size = new System.Drawing.Size(68, 23);
             this.lbM.TabIndex = 4;
             this.lbM.Text = "Minutes";
             this.lbM.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -789,7 +793,7 @@ namespace WindowsFormsApplication1
             this.lbH.Location = new System.Drawing.Point(83, 83);
             this.lbH.Name = "lbH";
             this.lbH.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbH.Size = new System.Drawing.Size(41, 19);
+            this.lbH.Size = new System.Drawing.Size(51, 23);
             this.lbH.TabIndex = 3;
             this.lbH.Text = "Hours";
             this.lbH.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -801,7 +805,7 @@ namespace WindowsFormsApplication1
             this.nbS.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nbS.Location = new System.Drawing.Point(19, 165);
             this.nbS.Name = "nbS";
-            this.nbS.Size = new System.Drawing.Size(58, 26);
+            this.nbS.Size = new System.Drawing.Size(58, 30);
             this.nbS.TabIndex = 2;
             this.nbS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nbS.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -813,7 +817,7 @@ namespace WindowsFormsApplication1
             this.nbM.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nbM.Location = new System.Drawing.Point(19, 122);
             this.nbM.Name = "nbM";
-            this.nbM.Size = new System.Drawing.Size(58, 26);
+            this.nbM.Size = new System.Drawing.Size(58, 30);
             this.nbM.TabIndex = 1;
             this.nbM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nbM.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -825,7 +829,7 @@ namespace WindowsFormsApplication1
             this.nbH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nbH.Location = new System.Drawing.Point(19, 80);
             this.nbH.Name = "nbH";
-            this.nbH.Size = new System.Drawing.Size(58, 26);
+            this.nbH.Size = new System.Drawing.Size(58, 30);
             this.nbH.TabIndex = 0;
             this.nbH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nbH.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -1042,7 +1046,7 @@ namespace WindowsFormsApplication1
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel4.ColumnCount = 1;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel6, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.tbpnInfo, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel7, 0, 1);
             this.tableLayoutPanel4.Location = new System.Drawing.Point(630, 0);
             this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
@@ -1053,51 +1057,51 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel4.Size = new System.Drawing.Size(769, 540);
             this.tableLayoutPanel4.TabIndex = 21;
             // 
-            // tableLayoutPanel6
+            // tbpnInfo
             // 
-            this.tableLayoutPanel6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tbpnInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel6.ColumnCount = 5;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.27698F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.51495F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.94538F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.62679F));
-            this.tableLayoutPanel6.Controls.Add(this.lb8, 0, 5);
-            this.tableLayoutPanel6.Controls.Add(this.dtpChart, 0, 0);
-            this.tableLayoutPanel6.Controls.Add(this.lb1, 0, 1);
-            this.tableLayoutPanel6.Controls.Add(this.lb2, 0, 2);
-            this.tableLayoutPanel6.Controls.Add(this.lb3, 0, 3);
-            this.tableLayoutPanel6.Controls.Add(this.lb4, 0, 4);
-            this.tableLayoutPanel6.Controls.Add(this.lb5, 2, 1);
-            this.tableLayoutPanel6.Controls.Add(this.lb6, 2, 2);
-            this.tableLayoutPanel6.Controls.Add(this.lb7, 2, 3);
-            this.tableLayoutPanel6.Controls.Add(this.bunifuLabel2, 2, 4);
-            this.tableLayoutPanel6.Controls.Add(this.bunifuLabel4, 2, 5);
-            this.tableLayoutPanel6.Controls.Add(this.lbLine, 3, 1);
-            this.tableLayoutPanel6.Controls.Add(this.lbNGR, 3, 2);
-            this.tableLayoutPanel6.Controls.Add(this.tbNGA, 3, 3);
-            this.tableLayoutPanel6.Controls.Add(this.lbRWR, 3, 4);
-            this.tableLayoutPanel6.Controls.Add(this.lbRWA, 3, 5);
-            this.tableLayoutPanel6.Controls.Add(this.btFix, 4, 3);
-            this.tableLayoutPanel6.Controls.Add(this.lbOP, 1, 1);
-            this.tableLayoutPanel6.Controls.Add(this.lbRW, 1, 2);
-            this.tableLayoutPanel6.Controls.Add(this.lbNG, 1, 3);
-            this.tableLayoutPanel6.Controls.Add(this.lbTt, 1, 4);
-            this.tableLayoutPanel6.Controls.Add(this.lbTarget, 1, 5);
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-            this.tableLayoutPanel6.RowCount = 6;
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(769, 465);
-            this.tableLayoutPanel6.TabIndex = 0;
+            this.tbpnInfo.ColumnCount = 5;
+            this.tbpnInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.27698F));
+            this.tbpnInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.51495F));
+            this.tbpnInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tbpnInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.94538F));
+            this.tbpnInfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.62679F));
+            this.tbpnInfo.Controls.Add(this.lb8, 0, 5);
+            this.tbpnInfo.Controls.Add(this.dtpChart, 0, 0);
+            this.tbpnInfo.Controls.Add(this.lb1, 0, 1);
+            this.tbpnInfo.Controls.Add(this.lb2, 0, 2);
+            this.tbpnInfo.Controls.Add(this.lb3, 0, 3);
+            this.tbpnInfo.Controls.Add(this.lb4, 0, 4);
+            this.tbpnInfo.Controls.Add(this.lb5, 2, 1);
+            this.tbpnInfo.Controls.Add(this.lb6, 2, 2);
+            this.tbpnInfo.Controls.Add(this.lb7, 2, 3);
+            this.tbpnInfo.Controls.Add(this.bunifuLabel2, 2, 4);
+            this.tbpnInfo.Controls.Add(this.bunifuLabel4, 2, 5);
+            this.tbpnInfo.Controls.Add(this.lbLine, 3, 1);
+            this.tbpnInfo.Controls.Add(this.tbNGA, 3, 3);
+            this.tbpnInfo.Controls.Add(this.lbRWR, 3, 4);
+            this.tbpnInfo.Controls.Add(this.lbRWA, 3, 5);
+            this.tbpnInfo.Controls.Add(this.lbOP, 1, 1);
+            this.tbpnInfo.Controls.Add(this.lbRW, 1, 2);
+            this.tbpnInfo.Controls.Add(this.lbNG, 1, 3);
+            this.tbpnInfo.Controls.Add(this.lbTt, 1, 4);
+            this.tbpnInfo.Controls.Add(this.lbTarget, 1, 5);
+            this.tbpnInfo.Controls.Add(this.lbNGR, 3, 2);
+            this.tbpnInfo.Controls.Add(this.btFix, 4, 3);
+            this.tbpnInfo.Location = new System.Drawing.Point(0, 0);
+            this.tbpnInfo.Margin = new System.Windows.Forms.Padding(0);
+            this.tbpnInfo.Name = "tbpnInfo";
+            this.tbpnInfo.RowCount = 6;
+            this.tbpnInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tbpnInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tbpnInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tbpnInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tbpnInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tbpnInfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tbpnInfo.Size = new System.Drawing.Size(769, 465);
+            this.tbpnInfo.TabIndex = 0;
             // 
             // lb8
             // 
@@ -1107,10 +1111,10 @@ namespace WindowsFormsApplication1
             this.lb8.Cursor = System.Windows.Forms.Cursors.Default;
             this.lb8.CursorType = System.Windows.Forms.Cursors.Default;
             this.lb8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb8.Location = new System.Drawing.Point(125, 415);
+            this.lb8.Location = new System.Drawing.Point(110, 413);
             this.lb8.Name = "lb8";
             this.lb8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb8.Size = new System.Drawing.Size(50, 19);
+            this.lb8.Size = new System.Drawing.Size(65, 23);
             this.lb8.TabIndex = 67;
             this.lb8.Text = "Target: ";
             this.lb8.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1151,10 +1155,10 @@ namespace WindowsFormsApplication1
             this.lb1.AutoEllipsis = false;
             this.lb1.CursorType = null;
             this.lb1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb1.Location = new System.Drawing.Point(107, 106);
+            this.lb1.Location = new System.Drawing.Point(86, 104);
             this.lb1.Name = "lb1";
             this.lb1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb1.Size = new System.Drawing.Size(68, 19);
+            this.lb1.Size = new System.Drawing.Size(89, 23);
             this.lb1.TabIndex = 62;
             this.lb1.Text = "OUTPUT: ";
             this.lb1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1167,10 +1171,10 @@ namespace WindowsFormsApplication1
             this.lb2.AutoEllipsis = false;
             this.lb2.CursorType = null;
             this.lb2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb2.Location = new System.Drawing.Point(93, 183);
+            this.lb2.Location = new System.Drawing.Point(73, 181);
             this.lb2.Name = "lb2";
             this.lb2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb2.Size = new System.Drawing.Size(82, 19);
+            this.lb2.Size = new System.Drawing.Size(102, 23);
             this.lb2.TabIndex = 64;
             this.lb2.Text = "RE WORK: ";
             this.lb2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1183,10 +1187,10 @@ namespace WindowsFormsApplication1
             this.lb3.AutoEllipsis = false;
             this.lb3.CursorType = null;
             this.lb3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb3.Location = new System.Drawing.Point(94, 260);
+            this.lb3.Location = new System.Drawing.Point(71, 258);
             this.lb3.Name = "lb3";
             this.lb3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb3.Size = new System.Drawing.Size(81, 19);
+            this.lb3.Size = new System.Drawing.Size(104, 23);
             this.lb3.TabIndex = 65;
             this.lb3.Text = "NO GOOD: ";
             this.lb3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1200,10 +1204,10 @@ namespace WindowsFormsApplication1
             this.lb4.Cursor = System.Windows.Forms.Cursors.Default;
             this.lb4.CursorType = System.Windows.Forms.Cursors.Default;
             this.lb4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb4.Location = new System.Drawing.Point(135, 337);
+            this.lb4.Location = new System.Drawing.Point(123, 335);
             this.lb4.Name = "lb4";
             this.lb4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb4.Size = new System.Drawing.Size(40, 19);
+            this.lb4.Size = new System.Drawing.Size(52, 23);
             this.lb4.TabIndex = 66;
             this.lb4.Text = "Total: ";
             this.lb4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1216,10 +1220,10 @@ namespace WindowsFormsApplication1
             this.lb5.AutoEllipsis = false;
             this.lb5.CursorType = null;
             this.lb5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb5.Location = new System.Drawing.Point(419, 106);
+            this.lb5.Location = new System.Drawing.Point(409, 104);
             this.lb5.Name = "lb5";
             this.lb5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb5.Size = new System.Drawing.Size(35, 19);
+            this.lb5.Size = new System.Drawing.Size(45, 23);
             this.lb5.TabIndex = 68;
             this.lb5.Text = "Line: ";
             this.lb5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1232,10 +1236,10 @@ namespace WindowsFormsApplication1
             this.lb6.AutoEllipsis = false;
             this.lb6.CursorType = null;
             this.lb6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb6.Location = new System.Drawing.Point(349, 183);
+            this.lb6.Location = new System.Drawing.Point(325, 181);
             this.lb6.Name = "lb6";
             this.lb6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb6.Size = new System.Drawing.Size(105, 19);
+            this.lb6.Size = new System.Drawing.Size(129, 23);
             this.lb6.TabIndex = 69;
             this.lb6.Text = "%NG Realtime";
             this.lb6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1248,10 +1252,10 @@ namespace WindowsFormsApplication1
             this.lb7.AutoEllipsis = false;
             this.lb7.CursorType = null;
             this.lb7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb7.Location = new System.Drawing.Point(373, 260);
+            this.lb7.Location = new System.Drawing.Point(353, 258);
             this.lb7.Name = "lb7";
             this.lb7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb7.Size = new System.Drawing.Size(81, 19);
+            this.lb7.Size = new System.Drawing.Size(101, 23);
             this.lb7.TabIndex = 70;
             this.lb7.Text = "%NG Allow";
             this.lb7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1264,10 +1268,10 @@ namespace WindowsFormsApplication1
             this.bunifuLabel2.AutoEllipsis = false;
             this.bunifuLabel2.CursorType = null;
             this.bunifuLabel2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.bunifuLabel2.Location = new System.Drawing.Point(346, 337);
+            this.bunifuLabel2.Location = new System.Drawing.Point(322, 335);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(108, 19);
+            this.bunifuLabel2.Size = new System.Drawing.Size(132, 23);
             this.bunifuLabel2.TabIndex = 71;
             this.bunifuLabel2.Text = "%RW Realtime";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1280,10 +1284,10 @@ namespace WindowsFormsApplication1
             this.bunifuLabel4.AutoEllipsis = false;
             this.bunifuLabel4.CursorType = null;
             this.bunifuLabel4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.bunifuLabel4.Location = new System.Drawing.Point(370, 415);
+            this.bunifuLabel4.Location = new System.Drawing.Point(350, 413);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(84, 19);
+            this.bunifuLabel4.Size = new System.Drawing.Size(104, 23);
             this.bunifuLabel4.TabIndex = 72;
             this.bunifuLabel4.Text = "%RW Allow";
             this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1296,30 +1300,14 @@ namespace WindowsFormsApplication1
             this.lbLine.AutoEllipsis = false;
             this.lbLine.CursorType = null;
             this.lbLine.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbLine.Location = new System.Drawing.Point(460, 106);
+            this.lbLine.Location = new System.Drawing.Point(460, 104);
             this.lbLine.Name = "lbLine";
             this.lbLine.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbLine.Size = new System.Drawing.Size(12, 19);
+            this.lbLine.Size = new System.Drawing.Size(15, 23);
             this.lbLine.TabIndex = 73;
             this.lbLine.Text = "...";
             this.lbLine.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbLine.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // lbNGR
-            // 
-            this.lbNGR.AllowParentOverrides = false;
-            this.lbNGR.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lbNGR.AutoEllipsis = false;
-            this.lbNGR.CursorType = null;
-            this.lbNGR.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbNGR.Location = new System.Drawing.Point(460, 183);
-            this.lbNGR.Name = "lbNGR";
-            this.lbNGR.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbNGR.Size = new System.Drawing.Size(12, 19);
-            this.lbNGR.TabIndex = 74;
-            this.lbNGR.Text = "...";
-            this.lbNGR.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lbNGR.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // tbNGA
             // 
@@ -1350,7 +1338,7 @@ namespace WindowsFormsApplication1
             this.tbNGA.IconRight = null;
             this.tbNGA.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbNGA.Lines = new string[0];
-            this.tbNGA.Location = new System.Drawing.Point(460, 249);
+            this.tbNGA.Location = new System.Drawing.Point(460, 247);
             this.tbNGA.MaxLength = 32767;
             this.tbNGA.MinimumSize = new System.Drawing.Size(1, 1);
             this.tbNGA.Modified = false;
@@ -1386,7 +1374,7 @@ namespace WindowsFormsApplication1
             this.tbNGA.SelectionLength = 0;
             this.tbNGA.SelectionStart = 0;
             this.tbNGA.ShortcutsEnabled = true;
-            this.tbNGA.Size = new System.Drawing.Size(131, 41);
+            this.tbNGA.Size = new System.Drawing.Size(131, 45);
             this.tbNGA.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.tbNGA.TabIndex = 75;
             this.tbNGA.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1404,10 +1392,10 @@ namespace WindowsFormsApplication1
             this.lbRWR.AutoEllipsis = false;
             this.lbRWR.CursorType = null;
             this.lbRWR.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbRWR.Location = new System.Drawing.Point(460, 337);
+            this.lbRWR.Location = new System.Drawing.Point(460, 335);
             this.lbRWR.Name = "lbRWR";
             this.lbRWR.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbRWR.Size = new System.Drawing.Size(12, 19);
+            this.lbRWR.Size = new System.Drawing.Size(15, 23);
             this.lbRWR.TabIndex = 76;
             this.lbRWR.Text = "...";
             this.lbRWR.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1420,14 +1408,110 @@ namespace WindowsFormsApplication1
             this.lbRWA.AutoEllipsis = false;
             this.lbRWA.CursorType = null;
             this.lbRWA.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbRWA.Location = new System.Drawing.Point(460, 415);
+            this.lbRWA.Location = new System.Drawing.Point(460, 413);
             this.lbRWA.Name = "lbRWA";
             this.lbRWA.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbRWA.Size = new System.Drawing.Size(12, 19);
+            this.lbRWA.Size = new System.Drawing.Size(15, 23);
             this.lbRWA.TabIndex = 77;
             this.lbRWA.Text = "...";
             this.lbRWA.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbRWA.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // lbOP
+            // 
+            this.lbOP.AllowParentOverrides = false;
+            this.lbOP.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbOP.AutoEllipsis = false;
+            this.lbOP.CursorType = null;
+            this.lbOP.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.lbOP.Location = new System.Drawing.Point(181, 104);
+            this.lbOP.Name = "lbOP";
+            this.lbOP.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbOP.Size = new System.Drawing.Size(15, 23);
+            this.lbOP.TabIndex = 79;
+            this.lbOP.Text = "...";
+            this.lbOP.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lbOP.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // lbRW
+            // 
+            this.lbRW.AllowParentOverrides = false;
+            this.lbRW.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbRW.AutoEllipsis = false;
+            this.lbRW.CursorType = null;
+            this.lbRW.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.lbRW.Location = new System.Drawing.Point(181, 181);
+            this.lbRW.Name = "lbRW";
+            this.lbRW.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbRW.Size = new System.Drawing.Size(15, 23);
+            this.lbRW.TabIndex = 80;
+            this.lbRW.Text = "...";
+            this.lbRW.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lbRW.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // lbNG
+            // 
+            this.lbNG.AllowParentOverrides = false;
+            this.lbNG.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbNG.AutoEllipsis = false;
+            this.lbNG.CursorType = null;
+            this.lbNG.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.lbNG.Location = new System.Drawing.Point(181, 258);
+            this.lbNG.Name = "lbNG";
+            this.lbNG.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbNG.Size = new System.Drawing.Size(15, 23);
+            this.lbNG.TabIndex = 81;
+            this.lbNG.Text = "...";
+            this.lbNG.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lbNG.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // lbTt
+            // 
+            this.lbTt.AllowParentOverrides = false;
+            this.lbTt.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbTt.AutoEllipsis = false;
+            this.lbTt.CursorType = null;
+            this.lbTt.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.lbTt.Location = new System.Drawing.Point(181, 335);
+            this.lbTt.Name = "lbTt";
+            this.lbTt.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbTt.Size = new System.Drawing.Size(15, 23);
+            this.lbTt.TabIndex = 82;
+            this.lbTt.Text = "...";
+            this.lbTt.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lbTt.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // lbTarget
+            // 
+            this.lbTarget.AllowParentOverrides = false;
+            this.lbTarget.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbTarget.AutoEllipsis = false;
+            this.lbTarget.CursorType = null;
+            this.lbTarget.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.lbTarget.Location = new System.Drawing.Point(181, 413);
+            this.lbTarget.Name = "lbTarget";
+            this.lbTarget.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbTarget.Size = new System.Drawing.Size(15, 23);
+            this.lbTarget.TabIndex = 83;
+            this.lbTarget.Text = "...";
+            this.lbTarget.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lbTarget.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // lbNGR
+            // 
+            this.lbNGR.AllowParentOverrides = false;
+            this.lbNGR.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbNGR.AutoEllipsis = false;
+            this.lbNGR.CursorType = null;
+            this.lbNGR.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.lbNGR.Location = new System.Drawing.Point(460, 181);
+            this.lbNGR.Name = "lbNGR";
+            this.lbNGR.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lbNGR.Size = new System.Drawing.Size(15, 23);
+            this.lbNGR.TabIndex = 74;
+            this.lbNGR.Text = "...";
+            this.lbNGR.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lbNGR.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // btFix
             // 
@@ -1513,7 +1597,7 @@ namespace WindowsFormsApplication1
             this.btFix.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btFix.OnPressedState.IconLeftImage = null;
             this.btFix.OnPressedState.IconRightImage = null;
-            this.btFix.Size = new System.Drawing.Size(76, 41);
+            this.btFix.Size = new System.Drawing.Size(81, 41);
             this.btFix.TabIndex = 78;
             this.btFix.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btFix.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1521,86 +1605,6 @@ namespace WindowsFormsApplication1
             this.btFix.TextPadding = new System.Windows.Forms.Padding(0);
             this.btFix.UseDefaultRadiusAndThickness = true;
             this.btFix.Click += new System.EventHandler(this.btFix_Click);
-            // 
-            // lbOP
-            // 
-            this.lbOP.AllowParentOverrides = false;
-            this.lbOP.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lbOP.AutoEllipsis = false;
-            this.lbOP.CursorType = null;
-            this.lbOP.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbOP.Location = new System.Drawing.Point(181, 106);
-            this.lbOP.Name = "lbOP";
-            this.lbOP.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbOP.Size = new System.Drawing.Size(12, 19);
-            this.lbOP.TabIndex = 79;
-            this.lbOP.Text = "...";
-            this.lbOP.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lbOP.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // lbRW
-            // 
-            this.lbRW.AllowParentOverrides = false;
-            this.lbRW.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lbRW.AutoEllipsis = false;
-            this.lbRW.CursorType = null;
-            this.lbRW.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbRW.Location = new System.Drawing.Point(181, 183);
-            this.lbRW.Name = "lbRW";
-            this.lbRW.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbRW.Size = new System.Drawing.Size(12, 19);
-            this.lbRW.TabIndex = 80;
-            this.lbRW.Text = "...";
-            this.lbRW.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lbRW.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // lbNG
-            // 
-            this.lbNG.AllowParentOverrides = false;
-            this.lbNG.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lbNG.AutoEllipsis = false;
-            this.lbNG.CursorType = null;
-            this.lbNG.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbNG.Location = new System.Drawing.Point(181, 260);
-            this.lbNG.Name = "lbNG";
-            this.lbNG.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbNG.Size = new System.Drawing.Size(12, 19);
-            this.lbNG.TabIndex = 81;
-            this.lbNG.Text = "...";
-            this.lbNG.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lbNG.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // lbTt
-            // 
-            this.lbTt.AllowParentOverrides = false;
-            this.lbTt.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lbTt.AutoEllipsis = false;
-            this.lbTt.CursorType = null;
-            this.lbTt.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbTt.Location = new System.Drawing.Point(181, 337);
-            this.lbTt.Name = "lbTt";
-            this.lbTt.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbTt.Size = new System.Drawing.Size(12, 19);
-            this.lbTt.TabIndex = 82;
-            this.lbTt.Text = "...";
-            this.lbTt.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lbTt.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // lbTarget
-            // 
-            this.lbTarget.AllowParentOverrides = false;
-            this.lbTarget.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lbTarget.AutoEllipsis = false;
-            this.lbTarget.CursorType = null;
-            this.lbTarget.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbTarget.Location = new System.Drawing.Point(181, 415);
-            this.lbTarget.Name = "lbTarget";
-            this.lbTarget.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbTarget.Size = new System.Drawing.Size(12, 19);
-            this.lbTarget.TabIndex = 83;
-            this.lbTarget.Text = "...";
-            this.lbTarget.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lbTarget.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // tableLayoutPanel7
             // 
@@ -1611,9 +1615,9 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 333F));
-            this.tableLayoutPanel7.Controls.Add(this.btSI, 0, 0);
             this.tableLayoutPanel7.Controls.Add(this.btSearch, 0, 0);
             this.tableLayoutPanel7.Controls.Add(this.tbSearch, 0, 0);
+            this.tableLayoutPanel7.Controls.Add(this.tbpnFix, 2, 0);
             this.tableLayoutPanel7.Location = new System.Drawing.Point(0, 465);
             this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
@@ -1621,99 +1625,6 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel7.Size = new System.Drawing.Size(769, 75);
             this.tableLayoutPanel7.TabIndex = 1;
-            // 
-            // btSI
-            // 
-            this.btSI.AllowAnimations = true;
-            this.btSI.AllowMouseEffects = true;
-            this.btSI.AllowToggling = false;
-            this.btSI.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.btSI.AnimationSpeed = 200;
-            this.btSI.AutoGenerateColors = false;
-            this.btSI.AutoRoundBorders = false;
-            this.btSI.AutoSizeLeftIcon = true;
-            this.btSI.AutoSizeRightIcon = true;
-            this.btSI.BackColor = System.Drawing.Color.Transparent;
-            this.btSI.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
-            this.btSI.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btSI.BackgroundImage")));
-            this.btSI.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btSI.ButtonText = "Show \r\nInfo";
-            this.btSI.ButtonTextMarginLeft = 0;
-            this.btSI.ColorContrastOnClick = 45;
-            this.btSI.ColorContrastOnHover = 45;
-            this.btSI.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.btSI.CustomizableEdges = borderEdges6;
-            this.btSI.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btSI.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btSI.DisabledFillColor = System.Drawing.Color.Empty;
-            this.btSI.DisabledForecolor = System.Drawing.Color.Empty;
-            this.btSI.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.btSI.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSI.ForeColor = System.Drawing.Color.Black;
-            this.btSI.IconLeft = null;
-            this.btSI.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btSI.IconLeftCursor = System.Windows.Forms.Cursors.Default;
-            this.btSI.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
-            this.btSI.IconMarginLeft = 11;
-            this.btSI.IconPadding = 10;
-            this.btSI.IconRight = null;
-            this.btSI.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btSI.IconRightCursor = System.Windows.Forms.Cursors.Default;
-            this.btSI.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
-            this.btSI.IconSize = 25;
-            this.btSI.IdleBorderColor = System.Drawing.Color.Empty;
-            this.btSI.IdleBorderRadius = 0;
-            this.btSI.IdleBorderThickness = 0;
-            this.btSI.IdleFillColor = System.Drawing.Color.Empty;
-            this.btSI.IdleIconLeftImage = null;
-            this.btSI.IdleIconRightImage = null;
-            this.btSI.IndicateFocus = false;
-            this.btSI.Location = new System.Drawing.Point(439, 3);
-            this.btSI.Name = "btSI";
-            this.btSI.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
-            this.btSI.OnDisabledState.BorderRadius = 1;
-            this.btSI.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btSI.OnDisabledState.BorderThickness = 1;
-            this.btSI.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.btSI.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.btSI.OnDisabledState.IconLeftImage = null;
-            this.btSI.OnDisabledState.IconRightImage = null;
-            this.btSI.onHoverState.BorderColor = System.Drawing.Color.Lime;
-            this.btSI.onHoverState.BorderRadius = 1;
-            this.btSI.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btSI.onHoverState.BorderThickness = 1;
-            this.btSI.onHoverState.FillColor = System.Drawing.Color.Lime;
-            this.btSI.onHoverState.ForeColor = System.Drawing.Color.White;
-            this.btSI.onHoverState.IconLeftImage = null;
-            this.btSI.onHoverState.IconRightImage = null;
-            this.btSI.OnIdleState.BorderColor = System.Drawing.Color.LawnGreen;
-            this.btSI.OnIdleState.BorderRadius = 1;
-            this.btSI.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btSI.OnIdleState.BorderThickness = 1;
-            this.btSI.OnIdleState.FillColor = System.Drawing.Color.LawnGreen;
-            this.btSI.OnIdleState.ForeColor = System.Drawing.Color.Black;
-            this.btSI.OnIdleState.IconLeftImage = null;
-            this.btSI.OnIdleState.IconRightImage = null;
-            this.btSI.OnPressedState.BorderColor = System.Drawing.Color.ForestGreen;
-            this.btSI.OnPressedState.BorderRadius = 1;
-            this.btSI.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.btSI.OnPressedState.BorderThickness = 1;
-            this.btSI.OnPressedState.FillColor = System.Drawing.Color.ForestGreen;
-            this.btSI.OnPressedState.ForeColor = System.Drawing.Color.White;
-            this.btSI.OnPressedState.IconLeftImage = null;
-            this.btSI.OnPressedState.IconRightImage = null;
-            this.btSI.Size = new System.Drawing.Size(94, 69);
-            this.btSI.TabIndex = 68;
-            this.btSI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btSI.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btSI.TextMarginLeft = 0;
-            this.btSI.TextPadding = new System.Windows.Forms.Padding(0);
-            this.btSI.UseDefaultRadiusAndThickness = true;
-            this.btSI.Click += new System.EventHandler(this.btSI_Click);
             // 
             // btSearch
             // 
@@ -1780,7 +1691,7 @@ namespace WindowsFormsApplication1
             this.tbSearch.IconRight = null;
             this.tbSearch.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbSearch.Lines = new string[0];
-            this.tbSearch.Location = new System.Drawing.Point(105, 18);
+            this.tbSearch.Location = new System.Drawing.Point(105, 16);
             this.tbSearch.MaxLength = 32767;
             this.tbSearch.MinimumSize = new System.Drawing.Size(1, 1);
             this.tbSearch.Modified = false;
@@ -1816,7 +1727,7 @@ namespace WindowsFormsApplication1
             this.tbSearch.SelectionLength = 0;
             this.tbSearch.SelectionStart = 0;
             this.tbSearch.ShortcutsEnabled = true;
-            this.tbSearch.Size = new System.Drawing.Size(260, 39);
+            this.tbSearch.Size = new System.Drawing.Size(260, 43);
             this.tbSearch.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.tbSearch.TabIndex = 56;
             this.tbSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1828,13 +1739,217 @@ namespace WindowsFormsApplication1
             this.tbSearch.WordWrap = true;
             this.tbSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbSearch_KeyDown);
             // 
+            // tbpnFix
+            // 
+            this.tbpnFix.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbpnFix.ColumnCount = 2;
+            this.tbpnFix.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tbpnFix.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tbpnFix.Controls.Add(this.btSI, 0, 0);
+            this.tbpnFix.Controls.Add(this.btFixAll, 1, 0);
+            this.tbpnFix.Location = new System.Drawing.Point(436, 0);
+            this.tbpnFix.Margin = new System.Windows.Forms.Padding(0);
+            this.tbpnFix.Name = "tbpnFix";
+            this.tbpnFix.RowCount = 1;
+            this.tbpnFix.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tbpnFix.Size = new System.Drawing.Size(333, 75);
+            this.tbpnFix.TabIndex = 59;
+            // 
+            // btSI
+            // 
+            this.btSI.AllowAnimations = true;
+            this.btSI.AllowMouseEffects = true;
+            this.btSI.AllowToggling = false;
+            this.btSI.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btSI.AnimationSpeed = 200;
+            this.btSI.AutoGenerateColors = false;
+            this.btSI.AutoRoundBorders = false;
+            this.btSI.AutoSizeLeftIcon = true;
+            this.btSI.AutoSizeRightIcon = true;
+            this.btSI.BackColor = System.Drawing.Color.Transparent;
+            this.btSI.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
+            this.btSI.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btSI.BackgroundImage")));
+            this.btSI.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btSI.ButtonText = "Show \r\nInfo";
+            this.btSI.ButtonTextMarginLeft = 0;
+            this.btSI.ColorContrastOnClick = 45;
+            this.btSI.ColorContrastOnHover = 45;
+            this.btSI.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges6.BottomLeft = true;
+            borderEdges6.BottomRight = true;
+            borderEdges6.TopLeft = true;
+            borderEdges6.TopRight = true;
+            this.btSI.CustomizableEdges = borderEdges6;
+            this.btSI.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btSI.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btSI.DisabledFillColor = System.Drawing.Color.Empty;
+            this.btSI.DisabledForecolor = System.Drawing.Color.Empty;
+            this.btSI.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btSI.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btSI.ForeColor = System.Drawing.Color.Black;
+            this.btSI.IconLeft = null;
+            this.btSI.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btSI.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btSI.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.btSI.IconMarginLeft = 11;
+            this.btSI.IconPadding = 10;
+            this.btSI.IconRight = null;
+            this.btSI.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btSI.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btSI.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.btSI.IconSize = 25;
+            this.btSI.IdleBorderColor = System.Drawing.Color.Empty;
+            this.btSI.IdleBorderRadius = 0;
+            this.btSI.IdleBorderThickness = 0;
+            this.btSI.IdleFillColor = System.Drawing.Color.Empty;
+            this.btSI.IdleIconLeftImage = null;
+            this.btSI.IdleIconRightImage = null;
+            this.btSI.IndicateFocus = false;
+            this.btSI.Location = new System.Drawing.Point(3, 3);
+            this.btSI.Name = "btSI";
+            this.btSI.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btSI.OnDisabledState.BorderRadius = 1;
+            this.btSI.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btSI.OnDisabledState.BorderThickness = 1;
+            this.btSI.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btSI.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btSI.OnDisabledState.IconLeftImage = null;
+            this.btSI.OnDisabledState.IconRightImage = null;
+            this.btSI.onHoverState.BorderColor = System.Drawing.Color.Lime;
+            this.btSI.onHoverState.BorderRadius = 1;
+            this.btSI.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btSI.onHoverState.BorderThickness = 1;
+            this.btSI.onHoverState.FillColor = System.Drawing.Color.Lime;
+            this.btSI.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.btSI.onHoverState.IconLeftImage = null;
+            this.btSI.onHoverState.IconRightImage = null;
+            this.btSI.OnIdleState.BorderColor = System.Drawing.Color.LawnGreen;
+            this.btSI.OnIdleState.BorderRadius = 1;
+            this.btSI.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btSI.OnIdleState.BorderThickness = 1;
+            this.btSI.OnIdleState.FillColor = System.Drawing.Color.LawnGreen;
+            this.btSI.OnIdleState.ForeColor = System.Drawing.Color.Black;
+            this.btSI.OnIdleState.IconLeftImage = null;
+            this.btSI.OnIdleState.IconRightImage = null;
+            this.btSI.OnPressedState.BorderColor = System.Drawing.Color.ForestGreen;
+            this.btSI.OnPressedState.BorderRadius = 1;
+            this.btSI.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btSI.OnPressedState.BorderThickness = 1;
+            this.btSI.OnPressedState.FillColor = System.Drawing.Color.ForestGreen;
+            this.btSI.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.btSI.OnPressedState.IconLeftImage = null;
+            this.btSI.OnPressedState.IconRightImage = null;
+            this.btSI.Size = new System.Drawing.Size(93, 69);
+            this.btSI.TabIndex = 68;
+            this.btSI.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btSI.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btSI.TextMarginLeft = 0;
+            this.btSI.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btSI.UseDefaultRadiusAndThickness = true;
+            this.btSI.Click += new System.EventHandler(this.btSI_Click);
+            // 
+            // btFixAll
+            // 
+            this.btFixAll.AllowAnimations = true;
+            this.btFixAll.AllowMouseEffects = true;
+            this.btFixAll.AllowToggling = false;
+            this.btFixAll.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btFixAll.AnimationSpeed = 200;
+            this.btFixAll.AutoGenerateColors = false;
+            this.btFixAll.AutoRoundBorders = false;
+            this.btFixAll.AutoSizeLeftIcon = true;
+            this.btFixAll.AutoSizeRightIcon = true;
+            this.btFixAll.BackColor = System.Drawing.Color.Transparent;
+            this.btFixAll.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
+            this.btFixAll.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btFixAll.BackgroundImage")));
+            this.btFixAll.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btFixAll.ButtonText = "Fix All Model \r\n%NG Allow";
+            this.btFixAll.ButtonTextMarginLeft = 0;
+            this.btFixAll.ColorContrastOnClick = 45;
+            this.btFixAll.ColorContrastOnHover = 45;
+            this.btFixAll.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges7.BottomLeft = true;
+            borderEdges7.BottomRight = true;
+            borderEdges7.TopLeft = true;
+            borderEdges7.TopRight = true;
+            this.btFixAll.CustomizableEdges = borderEdges7;
+            this.btFixAll.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btFixAll.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btFixAll.DisabledFillColor = System.Drawing.Color.Empty;
+            this.btFixAll.DisabledForecolor = System.Drawing.Color.Empty;
+            this.btFixAll.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btFixAll.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btFixAll.ForeColor = System.Drawing.Color.Black;
+            this.btFixAll.IconLeft = null;
+            this.btFixAll.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btFixAll.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btFixAll.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.btFixAll.IconMarginLeft = 11;
+            this.btFixAll.IconPadding = 10;
+            this.btFixAll.IconRight = null;
+            this.btFixAll.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btFixAll.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btFixAll.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.btFixAll.IconSize = 25;
+            this.btFixAll.IdleBorderColor = System.Drawing.Color.Empty;
+            this.btFixAll.IdleBorderRadius = 0;
+            this.btFixAll.IdleBorderThickness = 0;
+            this.btFixAll.IdleFillColor = System.Drawing.Color.Empty;
+            this.btFixAll.IdleIconLeftImage = null;
+            this.btFixAll.IdleIconRightImage = null;
+            this.btFixAll.IndicateFocus = false;
+            this.btFixAll.Location = new System.Drawing.Point(102, 3);
+            this.btFixAll.Name = "btFixAll";
+            this.btFixAll.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btFixAll.OnDisabledState.BorderRadius = 1;
+            this.btFixAll.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btFixAll.OnDisabledState.BorderThickness = 1;
+            this.btFixAll.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btFixAll.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btFixAll.OnDisabledState.IconLeftImage = null;
+            this.btFixAll.OnDisabledState.IconRightImage = null;
+            this.btFixAll.onHoverState.BorderColor = System.Drawing.Color.Gold;
+            this.btFixAll.onHoverState.BorderRadius = 1;
+            this.btFixAll.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btFixAll.onHoverState.BorderThickness = 1;
+            this.btFixAll.onHoverState.FillColor = System.Drawing.Color.Gold;
+            this.btFixAll.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.btFixAll.onHoverState.IconLeftImage = null;
+            this.btFixAll.onHoverState.IconRightImage = null;
+            this.btFixAll.OnIdleState.BorderColor = System.Drawing.Color.Yellow;
+            this.btFixAll.OnIdleState.BorderRadius = 1;
+            this.btFixAll.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btFixAll.OnIdleState.BorderThickness = 1;
+            this.btFixAll.OnIdleState.FillColor = System.Drawing.Color.Yellow;
+            this.btFixAll.OnIdleState.ForeColor = System.Drawing.Color.Black;
+            this.btFixAll.OnIdleState.IconLeftImage = null;
+            this.btFixAll.OnIdleState.IconRightImage = null;
+            this.btFixAll.OnPressedState.BorderColor = System.Drawing.Color.Yellow;
+            this.btFixAll.OnPressedState.BorderRadius = 1;
+            this.btFixAll.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btFixAll.OnPressedState.BorderThickness = 1;
+            this.btFixAll.OnPressedState.FillColor = System.Drawing.Color.Yellow;
+            this.btFixAll.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.btFixAll.OnPressedState.IconLeftImage = null;
+            this.btFixAll.OnPressedState.IconRightImage = null;
+            this.btFixAll.Size = new System.Drawing.Size(157, 69);
+            this.btFixAll.TabIndex = 79;
+            this.btFixAll.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btFixAll.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btFixAll.TextMarginLeft = 0;
+            this.btFixAll.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btFixAll.UseDefaultRadiusAndThickness = true;
+            this.btFixAll.Click += new System.EventHandler(this.btFixAll_Click);
+            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // UC_Product_Info
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.tableLayoutPanel1);
@@ -1857,9 +1972,10 @@ namespace WindowsFormsApplication1
             ((System.ComponentModel.ISupportInitialize)(this.nbH)).EndInit();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel6.ResumeLayout(false);
-            this.tableLayoutPanel6.PerformLayout();
+            this.tbpnInfo.ResumeLayout(false);
+            this.tbpnInfo.PerformLayout();
             this.tableLayoutPanel7.ResumeLayout(false);
+            this.tbpnFix.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1895,7 +2011,7 @@ namespace WindowsFormsApplication1
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btStart;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton btStop;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
+        private System.Windows.Forms.TableLayoutPanel tbpnInfo;
         private Bunifu.UI.WinForms.BunifuLabel lb8;
         private Bunifu.UI.WinForms.BunifuDatePicker dtpChart;
         private Bunifu.UI.WinForms.BunifuLabel lb1;
@@ -1923,5 +2039,7 @@ namespace WindowsFormsApplication1
         private Bunifu.UI.WinForms.BunifuImageButton btSearch;
         private Bunifu.UI.WinForms.BunifuTextBox tbSearch;
         private System.Windows.Forms.Timer timer1;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btFixAll;
+        private System.Windows.Forms.TableLayoutPanel tbpnFix;
     }
 }

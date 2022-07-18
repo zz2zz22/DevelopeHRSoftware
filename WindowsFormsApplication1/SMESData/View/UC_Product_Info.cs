@@ -33,13 +33,15 @@ namespace WindowsFormsApplication1
             lblTime.Font = new Font("Times New Roman", 14, FontStyle.Bold);
             //Timer          
             pnTimeControl.Enabled = false;
-            wn.OnUpdateStatus += customControl_OnUpdateStatus;          
+            wn.OnUpdateStatus += customControl_OnUpdateStatus;
+            wnAll.OnUpdateStatus += customControl_OnUpdateStatus;
         }
 
         //List data
         List<double> dataMQC = new List<double>();
         List<double> dataPQC = new List<double>();
         Warning wn = new Warning();
+        WarningAll wnAll = new WarningAll();
         FormInfo FI = new FormInfo();
         //
         public int secondsToWait = 300;
@@ -446,8 +448,28 @@ namespace WindowsFormsApplication1
 
         private void btFix_Click(object sender, EventArgs e)
         {
-            SaveData.NGallow = tbNGA.Text.Replace("%", "").Trim();
-            wn.ShowDialog();
+            if (tbNGA.Text != null && tbNGA.Text != "" && lbModel.Text != null && lbModel.Text != "" && lbModel.Text != "..")
+            {
+                SaveData.NGallow = tbNGA.Text.Replace("%", "").Trim();
+                wn.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("No Data");
+            }
+        }
+
+        private void btFixAll_Click(object sender, EventArgs e)
+        {
+            if (tbNGA.Text != null && tbNGA.Text != "")
+            {
+                SaveData.NGallow = tbNGA.Text.Replace("%", "").Trim();
+                wnAll.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Please enter %NG Allow");
+            }
         }
 
         public void tbSearch_KeyDown(object sender, KeyEventArgs e)

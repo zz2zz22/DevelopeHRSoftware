@@ -949,6 +949,12 @@
     <Compile Include="SMESData\View\Warning.designer.cs">
       <DependentUpon>Warning.cs</DependentUpon>
     </Compile>
+    <Compile Include="SMESData\View\WarningAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMESData\View\WarningAll.Designer.cs">
+      <DependentUpon>WarningAll.cs</DependentUpon>
+    </Compile>
     <Compile Include="ToolForm\CalenderDate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1353,6 +1359,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SMESData\View\Warning.resx">
       <DependentUpon>Warning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMESData\View\WarningAll.resx">
+      <DependentUpon>WarningAll.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ToolForm\CalenderDate.resx">
       <DependentUpon>CalenderDate.cs</DependentUpon>

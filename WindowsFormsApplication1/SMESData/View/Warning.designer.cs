@@ -112,7 +112,7 @@ namespace WindowsFormsApplication1
             this.lbDate.AutoEllipsis = false;
             this.lbDate.CursorType = null;
             this.lbDate.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold);
-            this.lbDate.Location = new System.Drawing.Point(291, 100);
+            this.lbDate.Location = new System.Drawing.Point(299, 100);
             this.lbDate.Name = "lbDate";
             this.lbDate.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lbDate.Size = new System.Drawing.Size(18, 26);
@@ -130,9 +130,9 @@ namespace WindowsFormsApplication1
             this.lbSD.Location = new System.Drawing.Point(237, 100);
             this.lbSD.Name = "lbSD";
             this.lbSD.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbSD.Size = new System.Drawing.Size(48, 26);
+            this.lbSD.Size = new System.Drawing.Size(56, 26);
             this.lbSD.TabIndex = 60;
-            this.lbSD.Text = "Date";
+            this.lbSD.Text = "Date:";
             this.lbSD.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lbSD.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
