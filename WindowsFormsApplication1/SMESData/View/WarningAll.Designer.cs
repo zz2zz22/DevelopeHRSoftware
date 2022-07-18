@@ -30,8 +30,8 @@ namespace WindowsFormsApplication1
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WarningAll));
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges8 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             this.btClose = new Bunifu.UI.WinForms.BunifuImageButton();
             this.btOK = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.btCancel = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
@@ -99,11 +99,11 @@ namespace WindowsFormsApplication1
             this.btOK.ColorContrastOnClick = 45;
             this.btOK.ColorContrastOnHover = 45;
             this.btOK.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges7.BottomLeft = true;
-            borderEdges7.BottomRight = true;
-            borderEdges7.TopLeft = true;
-            borderEdges7.TopRight = true;
-            this.btOK.CustomizableEdges = borderEdges7;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.btOK.CustomizableEdges = borderEdges3;
             this.btOK.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btOK.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btOK.DisabledFillColor = System.Drawing.Color.Empty;
@@ -191,11 +191,11 @@ namespace WindowsFormsApplication1
             this.btCancel.ColorContrastOnClick = 45;
             this.btCancel.ColorContrastOnHover = 45;
             this.btCancel.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges8.BottomLeft = true;
-            borderEdges8.BottomRight = true;
-            borderEdges8.TopLeft = true;
-            borderEdges8.TopRight = true;
-            this.btCancel.CustomizableEdges = borderEdges8;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.btCancel.CustomizableEdges = borderEdges4;
             this.btCancel.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btCancel.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btCancel.DisabledFillColor = System.Drawing.Color.Empty;

@@ -7,7 +7,6 @@ using System.Windows.Forms;
 namespace WindowsFormsApplication1
 {
     class GetSOFTdata
-
     {      
         //total data in every line
         public static double getTotalMQC(string line, string date)
@@ -71,7 +70,7 @@ namespace WindowsFormsApplication1
                 s = double.Parse(temp);
             return s;
         }
-        //Get Medel
+        //Get Model in table NGRate
         public static DataTable GetModel(string date)
         {
             DataTable dt = new DataTable();
@@ -100,10 +99,11 @@ namespace WindowsFormsApplication1
             StringBuilder sqlGetData = new StringBuilder();
             sqlGetData.Append("select distinct m.model as Model, m.inspectdate as Date, m.line as Line, m.OUTPUT, m.REWORK, m.NOGOOD, ");
             sqlGetData.Append("serno, ");
-            sqlGetData.Append("(CASE WHEN (select top 1 rate from thu_SMESData_NGRate where model = a.model and line = a.line order by inspectdate desc) IS NOT NULL ");
-            sqlGetData.Append("THEN (select top 1 rate from thu_SMESData_NGRate where model = a.model and line = a.line order by inspectdate desc) ELSE '2' END) as '%NG_allow', '2.5' as '%RW_allow' ");
+            sqlGetData.Append("(CASE WHEN (select top 1 rate from thu_SMESData_NGRate where model = a.model order by inspectdate desc) IS NOT NULL ");
+            sqlGetData.Append("THEN (select top 1 rate from thu_SMESData_NGRate where model = a.model order by inspectdate desc) ");
+            sqlGetData.Append("ELSE '2' END) as '%NG_allow', '2.5' as '%RW_allow' ");
             sqlGetData.Append("FROM m_ERPMQC_REALTIME as a ");
-            sqlGetData.Append("LEFT JOIN thu_SMESData_NGRate as r on a.model = r.model and a.line = r.line and a.inspectdate = r.inspectdate ");
+            sqlGetData.Append("LEFT JOIN thu_SMESData_NGRate as r on a.model = r.model and a.inspectdate = r.inspectdate ");
             sqlGetData.Append("join(SELECT model,  inspectdate, line, ");
             sqlGetData.Append("COALESCE(SUM(CASE WHEN remark = 'OP' THEN Cast(data as numeric(10,0)) END), 0) AS OUTPUT, ");
             sqlGetData.Append("COALESCE(SUM(CASE WHEN remark = 'RW' THEN Cast(data as numeric(10,0)) END), 0) AS REWORK, ");
@@ -289,10 +289,10 @@ namespace WindowsFormsApplication1
             sqlSOFTCon sqlSOFTCon = new sqlSOFTCon();
             StringBuilder sqlGetData = new StringBuilder();
             sqlGetData.Append("select distinct m.Model, m.Date, m.line as Line, m.OUTPUT, m.REWORK, m.NOGOOD, ");
-            sqlGetData.Append("(CASE WHEN (select top 1 rate from thu_SMESData_NGRate_PQC where Model = a.Model and line = a.line order by Date desc) IS NOT NULL ");
-            sqlGetData.Append("THEN (select top 1 rate from thu_SMESData_NGRate_PQC where Model = a.Model and line = a.line order by Date desc) ELSE '2' END) as '%NG_allow', POCode, '2.5' as '%RW_allow' ");
+            sqlGetData.Append("(CASE WHEN (select top 1 rate from thu_SMESData_NGRate_PQC where Model = a.Model order by Date desc) IS NOT NULL ");
+            sqlGetData.Append("THEN (select top 1 rate from thu_SMESData_NGRate_PQC where Model = a.Model order by Date desc) ELSE '2' END) as '%NG_allow', POCode, '2.5' as '%RW_allow' ");
             sqlGetData.Append("FROM ProcessHistory.PQCMesData as a ");
-            sqlGetData.Append("LEFT JOIN thu_SMESData_NGRate_PQC as r on a.Model = r.Model and a.line = r.line and CAST(a.InspectDateTime as Date) = r.Date ");
+            sqlGetData.Append("LEFT JOIN thu_SMESData_NGRate_PQC as r on a.Model = r.Model and CAST(a.InspectDateTime as Date) = r.Date ");
             sqlGetData.Append("join(SELECT Model, CAST(InspectDateTime as Date) as Date, line, ");
             sqlGetData.Append("COALESCE(SUM(CASE WHEN AttributeType = 'OP' THEN Cast(Quantity as numeric(10,0)) END), 0) AS OUTPUT, ");
             sqlGetData.Append("COALESCE(SUM(CASE WHEN AttributeType = 'RW' THEN Cast(Quantity as numeric(10,0)) END), 0) AS REWORK, ");
@@ -733,6 +733,24 @@ namespace WindowsFormsApplication1
                     string DtIn = Convert.ToDateTime(dt.Rows[i]["Date"]).ToString("dd-MM-yyyy");
                     dt.Rows[i]["DateTime"] = DtIn + " " + dt.Rows[i]["Time"];
                 }
+            }
+            return dt;
+        }
+        //Get all model in table m_ERPMQC_REALTIME
+        public static DataTable getAllModel()
+        {
+            DataTable dt = new DataTable();
+            sqlSOFTCon sqlSOFTCon = new sqlSOFTCon();
+            StringBuilder sqlGetData = new StringBuilder();
+            if (SaveData.PQC == true)
+            {
+                sqlGetData.Append("SELECT distinct Model FROM ProcessHistory.PQCMesData where Model != ''");
+                sqlSOFTCon.sqlDataAdapterFillDatatable(sqlGetData.ToString(), ref dt);
+            }
+            else
+            {
+                sqlGetData.Append("SELECT distinct model FROM m_ERPMQC_REALTIME where model != ''");
+                sqlSOFTCon.sqlDataAdapterFillDatatable(sqlGetData.ToString(), ref dt);
             }
             return dt;
         }

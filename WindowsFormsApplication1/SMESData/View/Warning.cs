@@ -28,11 +28,11 @@ namespace WindowsFormsApplication1
             DataRow[] results = GetSOFTdata.GetModel(SaveData.Date).Select("model = '" + SaveData.Model + "'");
             if (results.Length > 0)
             {
-                cmd = UploadLogic.Update(SaveData.Model, SaveData.Date, SaveData.line, SaveData.NGallow);
+                cmd = UploadLogic.Update(SaveData.Model, SaveData.Date, SaveData.NGallow);
             }
             else
             {
-                cmd = UploadLogic.Insert(SaveData.Model, SaveData.Date, SaveData.line, SaveData.NGallow);
+                cmd = UploadLogic.Insert(SaveData.Model, SaveData.Date, SaveData.NGallow);
             }
             uploadWithTransactionSupport(cmd);
             Close();
