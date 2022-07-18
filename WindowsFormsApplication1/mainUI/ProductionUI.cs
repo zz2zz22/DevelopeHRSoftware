@@ -153,7 +153,7 @@ namespace WindowsFormsApplication1.mainUI
         private void btChart_Click(object sender, EventArgs e)
         {
             MainForm mf = new MainForm();
-            mf.ShowDialog();
+            mf.Show();
         }
     }
 }
