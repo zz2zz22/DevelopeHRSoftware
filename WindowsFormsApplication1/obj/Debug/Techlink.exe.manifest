@@ -595,14 +595,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Techlink.exe" size="22543872">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Techlink.exe" size="22544896">
       <assemblyIdentity name="Techlink" version="1.0.0.21" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qY0hhdbIy8QxMDlJTI1tijEQiMGIIcrw9EHpbLRpiDg=</dsig:DigestValue>
+        <dsig:DigestValue>PQSFhY/szMxMwGCLj4wg77VtzPget+ogniRgCB1ixgQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

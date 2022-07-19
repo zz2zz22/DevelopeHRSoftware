@@ -12,9 +12,10 @@ namespace WindowsFormsApplication1
         public double NOGOOD { get; set; }
         public double Total { get; set; }
         public double Target { get; set; }
+        public double DailyTarget { get; set; }
         public double NG_rate_realtime { get; set; }
         public double NG_rate_allow { get; set; }
         public double RW_rate_realtime { get; set; }
-        public double RW_rate_allow { get; set; }
+        public double RW_rate_allow { get; set; }   
     }
 }

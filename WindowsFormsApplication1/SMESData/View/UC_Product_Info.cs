@@ -541,19 +541,26 @@ namespace WindowsFormsApplication1
             dtgv_MQC_PD.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dtgv_MQC_PD.Columns["NG_rate_allow"].Visible = false;
             dtgv_MQC_PD.Columns["RW_rate_allow"].Visible = false;
-            //if(SaveData.PQC == true)
-            //    dtgv_MQC_PD.Columns["Temp"].Visible = false;
+            if (SaveData.PQC == true)
+            {
+                dtgv_MQC_PD.Columns["Target"].Visible = true;
+                dtgv_MQC_PD.Columns["Target"].FillWeight = 1;
+            }
+            if(SaveData.MQC == true)
+            {
+                dtgv_MQC_PD.Columns["DailyTarget"].FillWeight = 2;
+                dtgv_MQC_PD.Columns["Target"].Visible = false;
+            }
+            dtgv_MQC_PD.Columns["Model"].FillWeight = 3;
             dtgv_MQC_PD.Columns["NG_rate_realtime"].HeaderText = "NG_realtime (%)";
             dtgv_MQC_PD.Columns["RW_rate_realtime"].HeaderText = "RW_realtime (%)";
             dtgv_MQC_PD.Columns["Model"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dtgv_MQC_PD.Columns["Model"].FillWeight = 3;
             dtgv_MQC_PD.Columns["Date"].FillWeight = 2;
             dtgv_MQC_PD.Columns["Line"].FillWeight = 1;
             dtgv_MQC_PD.Columns["OUTPUT"].FillWeight = 2;
             dtgv_MQC_PD.Columns["REWORK"].FillWeight = 2;
             dtgv_MQC_PD.Columns["NOGOOD"].FillWeight = 2;
             dtgv_MQC_PD.Columns["Total"].FillWeight = 1;
-            dtgv_MQC_PD.Columns["target"].FillWeight = 1;
             dtgv_MQC_PD.Columns["NG_rate_realtime"].FillWeight = 2;
             dtgv_MQC_PD.Columns["RW_rate_realtime"].FillWeight = 2;
         }
