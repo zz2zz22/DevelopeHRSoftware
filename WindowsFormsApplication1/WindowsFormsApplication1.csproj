@@ -1556,6 +1556,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Resources\logo.png" />
+    <None Include="Resources\minimize.png" />
+    <None Include="Resources\minimize %281%29.png" />
+    <None Include="Resources\maximize.png" />
     <Content Include="Resources\Month.xls">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -1632,6 +1635,7 @@
     <Content Include="Resources\Reliability1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\resize.png" />
     <Content Include="Resources\ShippingForm.xls">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

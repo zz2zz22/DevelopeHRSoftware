@@ -161,6 +161,19 @@ namespace WindowsFormsApplication1
             if (uc_PI != null)
                 if (e.KeyCode == Keys.Enter)
                     uc_PI.tbSearch_KeyDown(sender, e);
-        }       
+        }
+
+        private void btNornal_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal)
+                WindowState = FormWindowState.Maximized;
+            else
+                WindowState = FormWindowState.Normal;
+        }
+
+        private void btMin_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+        }
     }
 }

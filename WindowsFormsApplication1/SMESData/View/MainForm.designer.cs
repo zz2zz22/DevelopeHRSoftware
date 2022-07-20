@@ -35,6 +35,8 @@ namespace WindowsFormsApplication1
             Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2.BorderEdges();
             this.pnMain = new Bunifu.UI.WinForms.BunifuPanel();
             this.pnMenu = new Bunifu.UI.WinForms.BunifuPanel();
+            this.btMin = new Bunifu.UI.WinForms.BunifuImageButton();
+            this.btNornal = new Bunifu.UI.WinForms.BunifuImageButton();
             this.btMQCPD = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.btClose = new Bunifu.UI.WinForms.BunifuImageButton();
             this.btPQC = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
@@ -53,11 +55,11 @@ namespace WindowsFormsApplication1
             this.pnMain.BorderRadius = 0;
             this.pnMain.BorderThickness = 0;
             this.pnMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnMain.Location = new System.Drawing.Point(180, 0);
-            this.pnMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnMain.Location = new System.Drawing.Point(135, 0);
+            this.pnMain.Margin = new System.Windows.Forms.Padding(2);
             this.pnMain.Name = "pnMain";
             this.pnMain.ShowBorders = true;
-            this.pnMain.Size = new System.Drawing.Size(2380, 1142);
+            this.pnMain.Size = new System.Drawing.Size(1401, 822);
             this.pnMain.TabIndex = 10;
             // 
             // pnMenu
@@ -68,6 +70,8 @@ namespace WindowsFormsApplication1
             this.pnMenu.BorderColor = System.Drawing.Color.Transparent;
             this.pnMenu.BorderRadius = 0;
             this.pnMenu.BorderThickness = 0;
+            this.pnMenu.Controls.Add(this.btMin);
+            this.pnMenu.Controls.Add(this.btNornal);
             this.pnMenu.Controls.Add(this.btMQCPD);
             this.pnMenu.Controls.Add(this.btClose);
             this.pnMenu.Controls.Add(this.btPQC);
@@ -75,11 +79,85 @@ namespace WindowsFormsApplication1
             this.pnMenu.Controls.Add(this.pbLogo);
             this.pnMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnMenu.Location = new System.Drawing.Point(0, 0);
-            this.pnMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnMenu.Margin = new System.Windows.Forms.Padding(2);
             this.pnMenu.Name = "pnMenu";
             this.pnMenu.ShowBorders = true;
-            this.pnMenu.Size = new System.Drawing.Size(180, 1142);
+            this.pnMenu.Size = new System.Drawing.Size(135, 822);
             this.pnMenu.TabIndex = 9;
+            // 
+            // btMin
+            // 
+            this.btMin.ActiveImage = null;
+            this.btMin.AllowAnimations = true;
+            this.btMin.AllowBuffering = false;
+            this.btMin.AllowToggling = false;
+            this.btMin.AllowZooming = true;
+            this.btMin.AllowZoomingOnFocus = false;
+            this.btMin.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btMin.BackColor = System.Drawing.Color.Black;
+            this.btMin.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btMin.ErrorImage = ((System.Drawing.Image)(resources.GetObject("btMin.ErrorImage")));
+            this.btMin.FadeWhenInactive = false;
+            this.btMin.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.btMin.Image = global::WindowsFormsApplication1.Properties.Resources.minimize__1_;
+            this.btMin.ImageActive = null;
+            this.btMin.ImageLocation = null;
+            this.btMin.ImageMargin = 20;
+            this.btMin.ImageSize = new System.Drawing.Size(55, 61);
+            this.btMin.ImageZoomSize = new System.Drawing.Size(75, 81);
+            this.btMin.InitialImage = ((System.Drawing.Image)(resources.GetObject("btMin.InitialImage")));
+            this.btMin.Location = new System.Drawing.Point(31, 548);
+            this.btMin.Margin = new System.Windows.Forms.Padding(2);
+            this.btMin.Name = "btMin";
+            this.btMin.Rotation = 0;
+            this.btMin.ShowActiveImage = true;
+            this.btMin.ShowCursorChanges = true;
+            this.btMin.ShowImageBorders = true;
+            this.btMin.ShowSizeMarkers = false;
+            this.btMin.Size = new System.Drawing.Size(75, 81);
+            this.btMin.TabIndex = 9;
+            this.btMin.ToolTipText = "";
+            this.btMin.WaitOnLoad = false;
+            this.btMin.Zoom = 20;
+            this.btMin.ZoomSpeed = 10;
+            this.btMin.Click += new System.EventHandler(this.btMin_Click);
+            // 
+            // btNornal
+            // 
+            this.btNornal.ActiveImage = null;
+            this.btNornal.AllowAnimations = true;
+            this.btNornal.AllowBuffering = false;
+            this.btNornal.AllowToggling = false;
+            this.btNornal.AllowZooming = true;
+            this.btNornal.AllowZoomingOnFocus = false;
+            this.btNornal.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btNornal.BackColor = System.Drawing.Color.Black;
+            this.btNornal.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btNornal.ErrorImage = ((System.Drawing.Image)(resources.GetObject("btNornal.ErrorImage")));
+            this.btNornal.FadeWhenInactive = false;
+            this.btNornal.Flip = Bunifu.UI.WinForms.BunifuImageButton.FlipOrientation.Normal;
+            this.btNornal.Image = global::WindowsFormsApplication1.Properties.Resources.maximize;
+            this.btNornal.ImageActive = null;
+            this.btNornal.ImageLocation = null;
+            this.btNornal.ImageMargin = 20;
+            this.btNornal.ImageSize = new System.Drawing.Size(55, 61);
+            this.btNornal.ImageZoomSize = new System.Drawing.Size(75, 81);
+            this.btNornal.InitialImage = ((System.Drawing.Image)(resources.GetObject("btNornal.InitialImage")));
+            this.btNornal.Location = new System.Drawing.Point(31, 633);
+            this.btNornal.Margin = new System.Windows.Forms.Padding(2);
+            this.btNornal.Name = "btNornal";
+            this.btNornal.Rotation = 0;
+            this.btNornal.ShowActiveImage = true;
+            this.btNornal.ShowCursorChanges = true;
+            this.btNornal.ShowImageBorders = true;
+            this.btNornal.ShowSizeMarkers = false;
+            this.btNornal.Size = new System.Drawing.Size(75, 81);
+            this.btNornal.TabIndex = 8;
+            this.btNornal.ToolTipText = "";
+            this.btNornal.WaitOnLoad = false;
+            this.btNornal.Zoom = 20;
+            this.btNornal.ZoomSpeed = 10;
+            this.btNornal.Click += new System.EventHandler(this.btNornal_Click);
             // 
             // btMQCPD
             // 
@@ -128,8 +206,8 @@ namespace WindowsFormsApplication1
             this.btMQCPD.IdleIconLeftImage = null;
             this.btMQCPD.IdleIconRightImage = null;
             this.btMQCPD.IndicateFocus = true;
-            this.btMQCPD.Location = new System.Drawing.Point(0, 382);
-            this.btMQCPD.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btMQCPD.Location = new System.Drawing.Point(0, 310);
+            this.btMQCPD.Margin = new System.Windows.Forms.Padding(2);
             this.btMQCPD.Name = "btMQCPD";
             this.btMQCPD.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btMQCPD.OnDisabledState.BorderRadius = 1;
@@ -163,7 +241,7 @@ namespace WindowsFormsApplication1
             this.btMQCPD.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btMQCPD.OnPressedState.IconLeftImage = null;
             this.btMQCPD.OnPressedState.IconRightImage = null;
-            this.btMQCPD.Size = new System.Drawing.Size(180, 90);
+            this.btMQCPD.Size = new System.Drawing.Size(135, 73);
             this.btMQCPD.TabIndex = 7;
             this.btMQCPD.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btMQCPD.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -181,7 +259,7 @@ namespace WindowsFormsApplication1
             this.btClose.AllowZooming = true;
             this.btClose.AllowZoomingOnFocus = false;
             this.btClose.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btClose.BackColor = System.Drawing.Color.Transparent;
+            this.btClose.BackColor = System.Drawing.Color.Black;
             this.btClose.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btClose.ErrorImage = ((System.Drawing.Image)(resources.GetObject("btClose.ErrorImage")));
             this.btClose.FadeWhenInactive = false;
@@ -190,18 +268,18 @@ namespace WindowsFormsApplication1
             this.btClose.ImageActive = null;
             this.btClose.ImageLocation = null;
             this.btClose.ImageMargin = 20;
-            this.btClose.ImageSize = new System.Drawing.Size(80, 80);
-            this.btClose.ImageZoomSize = new System.Drawing.Size(100, 100);
+            this.btClose.ImageSize = new System.Drawing.Size(55, 61);
+            this.btClose.ImageZoomSize = new System.Drawing.Size(75, 81);
             this.btClose.InitialImage = ((System.Drawing.Image)(resources.GetObject("btClose.InitialImage")));
-            this.btClose.Location = new System.Drawing.Point(41, 1014);
-            this.btClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btClose.Location = new System.Drawing.Point(31, 718);
+            this.btClose.Margin = new System.Windows.Forms.Padding(2);
             this.btClose.Name = "btClose";
             this.btClose.Rotation = 0;
             this.btClose.ShowActiveImage = true;
             this.btClose.ShowCursorChanges = true;
             this.btClose.ShowImageBorders = true;
             this.btClose.ShowSizeMarkers = false;
-            this.btClose.Size = new System.Drawing.Size(100, 100);
+            this.btClose.Size = new System.Drawing.Size(75, 81);
             this.btClose.TabIndex = 6;
             this.btClose.ToolTipText = "";
             this.btClose.WaitOnLoad = false;
@@ -256,8 +334,8 @@ namespace WindowsFormsApplication1
             this.btPQC.IdleIconLeftImage = null;
             this.btPQC.IdleIconRightImage = null;
             this.btPQC.IndicateFocus = true;
-            this.btPQC.Location = new System.Drawing.Point(0, 260);
-            this.btPQC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btPQC.Location = new System.Drawing.Point(0, 211);
+            this.btPQC.Margin = new System.Windows.Forms.Padding(2);
             this.btPQC.Name = "btPQC";
             this.btPQC.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btPQC.OnDisabledState.BorderRadius = 1;
@@ -291,7 +369,7 @@ namespace WindowsFormsApplication1
             this.btPQC.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btPQC.OnPressedState.IconLeftImage = null;
             this.btPQC.OnPressedState.IconRightImage = null;
-            this.btPQC.Size = new System.Drawing.Size(180, 90);
+            this.btPQC.Size = new System.Drawing.Size(135, 73);
             this.btPQC.TabIndex = 5;
             this.btPQC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btPQC.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -347,8 +425,8 @@ namespace WindowsFormsApplication1
             this.btMQC.IdleIconLeftImage = null;
             this.btMQC.IdleIconRightImage = null;
             this.btMQC.IndicateFocus = true;
-            this.btMQC.Location = new System.Drawing.Point(0, 138);
-            this.btMQC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btMQC.Location = new System.Drawing.Point(0, 112);
+            this.btMQC.Margin = new System.Windows.Forms.Padding(2);
             this.btMQC.Name = "btMQC";
             this.btMQC.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btMQC.OnDisabledState.BorderRadius = 1;
@@ -382,7 +460,7 @@ namespace WindowsFormsApplication1
             this.btMQC.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btMQC.OnPressedState.IconLeftImage = null;
             this.btMQC.OnPressedState.IconRightImage = null;
-            this.btMQC.Size = new System.Drawing.Size(180, 90);
+            this.btMQC.Size = new System.Drawing.Size(135, 73);
             this.btMQC.TabIndex = 3;
             this.btMQC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btMQC.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -397,26 +475,27 @@ namespace WindowsFormsApplication1
             this.pbLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
             this.pbLogo.Location = new System.Drawing.Point(0, 0);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(2);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(180, 132);
+            this.pbLogo.Size = new System.Drawing.Size(135, 107);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 0;
             this.pbLogo.TabStop = false;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(2560, 1142);
+            this.ClientSize = new System.Drawing.Size(1536, 822);
             this.Controls.Add(this.pnMain);
             this.Controls.Add(this.pnMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ShowMESData";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainForm_Load);
@@ -436,6 +515,8 @@ namespace WindowsFormsApplication1
         private System.Windows.Forms.PictureBox pbLogo;
         private Bunifu.UI.WinForms.BunifuImageButton btClose;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 btMQCPD;
+        private Bunifu.UI.WinForms.BunifuImageButton btNornal;
+        private Bunifu.UI.WinForms.BunifuImageButton btMin;
     }
 }
 
