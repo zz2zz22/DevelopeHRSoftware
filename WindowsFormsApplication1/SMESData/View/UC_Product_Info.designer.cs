@@ -254,7 +254,6 @@ namespace WindowsFormsApplication1
             this.dtgv_MQC_PD.TabIndex = 69;
             this.dtgv_MQC_PD.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             this.dtgv_MQC_PD.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_MQC_PD_CellClick);
-            this.dtgv_MQC_PD.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dtgv_MQC_PD_DataBindingComplete);
             // 
             // tableLayoutPanel2
             // 
@@ -310,7 +309,7 @@ namespace WindowsFormsApplication1
             this.lbWar1.Location = new System.Drawing.Point(180, 200);
             this.lbWar1.Name = "lbWar1";
             this.lbWar1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbWar1.Size = new System.Drawing.Size(283, 90);
+            this.lbWar1.Size = new System.Drawing.Size(225, 73);
             this.lbWar1.TabIndex = 51;
             this.lbWar1.Text = "No Data";
             this.lbWar1.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -326,7 +325,7 @@ namespace WindowsFormsApplication1
             this.lbMdl.Location = new System.Drawing.Point(3, 9);
             this.lbMdl.Name = "lbMdl";
             this.lbMdl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbMdl.Size = new System.Drawing.Size(112, 38);
+            this.lbMdl.Size = new System.Drawing.Size(90, 31);
             this.lbMdl.TabIndex = 50;
             this.lbMdl.Text = "Model :";
             this.lbMdl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -342,7 +341,7 @@ namespace WindowsFormsApplication1
             this.lbModel.Location = new System.Drawing.Point(99, 9);
             this.lbModel.Name = "lbModel";
             this.lbModel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbModel.Size = new System.Drawing.Size(18, 38);
+            this.lbModel.Size = new System.Drawing.Size(14, 31);
             this.lbModel.TabIndex = 49;
             this.lbModel.Text = "..";
             this.lbModel.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -359,7 +358,7 @@ namespace WindowsFormsApplication1
             this.lbQC.Location = new System.Drawing.Point(507, 476);
             this.lbQC.Name = "lbQC";
             this.lbQC.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbQC.Size = new System.Drawing.Size(132, 62);
+            this.lbQC.Size = new System.Drawing.Size(106, 49);
             this.lbQC.TabIndex = 47;
             this.lbQC.Text = "MQC";
             this.lbQC.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -376,7 +375,7 @@ namespace WindowsFormsApplication1
             this.lbNG1.Margin = new System.Windows.Forms.Padding(2);
             this.lbNG1.Name = "lbNG1";
             this.lbNG1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbNG1.Size = new System.Drawing.Size(8, 17);
+            this.lbNG1.Size = new System.Drawing.Size(6, 15);
             this.lbNG1.TabIndex = 46;
             this.lbNG1.Text = "..";
             this.lbNG1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -394,7 +393,7 @@ namespace WindowsFormsApplication1
             this.lbRW1.Margin = new System.Windows.Forms.Padding(2);
             this.lbRW1.Name = "lbRW1";
             this.lbRW1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbRW1.Size = new System.Drawing.Size(8, 17);
+            this.lbRW1.Size = new System.Drawing.Size(6, 15);
             this.lbRW1.TabIndex = 45;
             this.lbRW1.Text = "..";
             this.lbRW1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -412,7 +411,7 @@ namespace WindowsFormsApplication1
             this.lbOP1.Margin = new System.Windows.Forms.Padding(2);
             this.lbOP1.Name = "lbOP1";
             this.lbOP1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbOP1.Size = new System.Drawing.Size(8, 17);
+            this.lbOP1.Size = new System.Drawing.Size(6, 15);
             this.lbOP1.TabIndex = 44;
             this.lbOP1.Text = "..";
             this.lbOP1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -438,7 +437,7 @@ namespace WindowsFormsApplication1
             this.linePCanvas1.LegendRevese = false;
             this.linePCanvas1.LegendRTL = false;
             this.linePCanvas1.Location = new System.Drawing.Point(-2, 63);
-            this.linePCanvas1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.linePCanvas1.Margin = new System.Windows.Forms.Padding(4);
             this.linePCanvas1.Name = "linePCanvas1";
             this.linePCanvas1.ShowXAxis = false;
             this.linePCanvas1.ShowYAxis = false;
@@ -697,10 +696,10 @@ namespace WindowsFormsApplication1
             this.lblTime.Cursor = System.Windows.Forms.Cursors.Default;
             this.lblTime.CursorType = System.Windows.Forms.Cursors.Default;
             this.lblTime.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
-            this.lblTime.Location = new System.Drawing.Point(280, 156);
+            this.lblTime.Location = new System.Drawing.Point(282, 156);
             this.lblTime.Name = "lblTime";
             this.lblTime.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTime.Size = new System.Drawing.Size(18, 25);
+            this.lblTime.Size = new System.Drawing.Size(15, 20);
             this.lblTime.TabIndex = 41;
             this.lblTime.Text = "...";
             this.lblTime.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -745,7 +744,7 @@ namespace WindowsFormsApplication1
             this.lbBox.Location = new System.Drawing.Point(24, 15);
             this.lbBox.Name = "lbBox";
             this.lbBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbBox.Size = new System.Drawing.Size(132, 52);
+            this.lbBox.Size = new System.Drawing.Size(106, 44);
             this.lbBox.TabIndex = 6;
             this.lbBox.Text = "Choose Data \r\nUpdate Time \r\n";
             this.lbBox.TextAlignment = System.Drawing.ContentAlignment.TopCenter;
@@ -761,7 +760,7 @@ namespace WindowsFormsApplication1
             this.lbS.Location = new System.Drawing.Point(83, 172);
             this.lbS.Name = "lbS";
             this.lbS.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbS.Size = new System.Drawing.Size(68, 23);
+            this.lbS.Size = new System.Drawing.Size(55, 19);
             this.lbS.TabIndex = 5;
             this.lbS.Text = "Seconds";
             this.lbS.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -777,7 +776,7 @@ namespace WindowsFormsApplication1
             this.lbM.Location = new System.Drawing.Point(83, 129);
             this.lbM.Name = "lbM";
             this.lbM.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbM.Size = new System.Drawing.Size(68, 23);
+            this.lbM.Size = new System.Drawing.Size(56, 19);
             this.lbM.TabIndex = 4;
             this.lbM.Text = "Minutes";
             this.lbM.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -793,7 +792,7 @@ namespace WindowsFormsApplication1
             this.lbH.Location = new System.Drawing.Point(83, 83);
             this.lbH.Name = "lbH";
             this.lbH.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbH.Size = new System.Drawing.Size(51, 23);
+            this.lbH.Size = new System.Drawing.Size(41, 19);
             this.lbH.TabIndex = 3;
             this.lbH.Text = "Hours";
             this.lbH.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -805,7 +804,7 @@ namespace WindowsFormsApplication1
             this.nbS.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nbS.Location = new System.Drawing.Point(19, 165);
             this.nbS.Name = "nbS";
-            this.nbS.Size = new System.Drawing.Size(58, 30);
+            this.nbS.Size = new System.Drawing.Size(58, 26);
             this.nbS.TabIndex = 2;
             this.nbS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nbS.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -817,7 +816,7 @@ namespace WindowsFormsApplication1
             this.nbM.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nbM.Location = new System.Drawing.Point(19, 122);
             this.nbM.Name = "nbM";
-            this.nbM.Size = new System.Drawing.Size(58, 30);
+            this.nbM.Size = new System.Drawing.Size(58, 26);
             this.nbM.TabIndex = 1;
             this.nbM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nbM.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -829,7 +828,7 @@ namespace WindowsFormsApplication1
             this.nbH.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nbH.Location = new System.Drawing.Point(19, 80);
             this.nbH.Name = "nbH";
-            this.nbH.Size = new System.Drawing.Size(58, 30);
+            this.nbH.Size = new System.Drawing.Size(58, 26);
             this.nbH.TabIndex = 0;
             this.nbH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nbH.UpDownAlign = System.Windows.Forms.LeftRightAlignment.Left;
@@ -1111,10 +1110,10 @@ namespace WindowsFormsApplication1
             this.lb8.Cursor = System.Windows.Forms.Cursors.Default;
             this.lb8.CursorType = System.Windows.Forms.Cursors.Default;
             this.lb8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb8.Location = new System.Drawing.Point(110, 413);
+            this.lb8.Location = new System.Drawing.Point(125, 415);
             this.lb8.Name = "lb8";
             this.lb8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb8.Size = new System.Drawing.Size(65, 23);
+            this.lb8.Size = new System.Drawing.Size(50, 19);
             this.lb8.TabIndex = 67;
             this.lb8.Text = "Target: ";
             this.lb8.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1155,10 +1154,10 @@ namespace WindowsFormsApplication1
             this.lb1.AutoEllipsis = false;
             this.lb1.CursorType = null;
             this.lb1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb1.Location = new System.Drawing.Point(86, 104);
+            this.lb1.Location = new System.Drawing.Point(107, 106);
             this.lb1.Name = "lb1";
             this.lb1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb1.Size = new System.Drawing.Size(89, 23);
+            this.lb1.Size = new System.Drawing.Size(68, 19);
             this.lb1.TabIndex = 62;
             this.lb1.Text = "OUTPUT: ";
             this.lb1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1171,10 +1170,10 @@ namespace WindowsFormsApplication1
             this.lb2.AutoEllipsis = false;
             this.lb2.CursorType = null;
             this.lb2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb2.Location = new System.Drawing.Point(73, 181);
+            this.lb2.Location = new System.Drawing.Point(93, 183);
             this.lb2.Name = "lb2";
             this.lb2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb2.Size = new System.Drawing.Size(102, 23);
+            this.lb2.Size = new System.Drawing.Size(82, 19);
             this.lb2.TabIndex = 64;
             this.lb2.Text = "RE WORK: ";
             this.lb2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1187,10 +1186,10 @@ namespace WindowsFormsApplication1
             this.lb3.AutoEllipsis = false;
             this.lb3.CursorType = null;
             this.lb3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb3.Location = new System.Drawing.Point(71, 258);
+            this.lb3.Location = new System.Drawing.Point(94, 260);
             this.lb3.Name = "lb3";
             this.lb3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb3.Size = new System.Drawing.Size(104, 23);
+            this.lb3.Size = new System.Drawing.Size(81, 19);
             this.lb3.TabIndex = 65;
             this.lb3.Text = "NO GOOD: ";
             this.lb3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1204,10 +1203,10 @@ namespace WindowsFormsApplication1
             this.lb4.Cursor = System.Windows.Forms.Cursors.Default;
             this.lb4.CursorType = System.Windows.Forms.Cursors.Default;
             this.lb4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb4.Location = new System.Drawing.Point(123, 335);
+            this.lb4.Location = new System.Drawing.Point(135, 337);
             this.lb4.Name = "lb4";
             this.lb4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb4.Size = new System.Drawing.Size(52, 23);
+            this.lb4.Size = new System.Drawing.Size(40, 19);
             this.lb4.TabIndex = 66;
             this.lb4.Text = "Total: ";
             this.lb4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1220,10 +1219,10 @@ namespace WindowsFormsApplication1
             this.lb5.AutoEllipsis = false;
             this.lb5.CursorType = null;
             this.lb5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb5.Location = new System.Drawing.Point(409, 104);
+            this.lb5.Location = new System.Drawing.Point(419, 106);
             this.lb5.Name = "lb5";
             this.lb5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb5.Size = new System.Drawing.Size(45, 23);
+            this.lb5.Size = new System.Drawing.Size(35, 19);
             this.lb5.TabIndex = 68;
             this.lb5.Text = "Line: ";
             this.lb5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1236,10 +1235,10 @@ namespace WindowsFormsApplication1
             this.lb6.AutoEllipsis = false;
             this.lb6.CursorType = null;
             this.lb6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb6.Location = new System.Drawing.Point(325, 181);
+            this.lb6.Location = new System.Drawing.Point(349, 183);
             this.lb6.Name = "lb6";
             this.lb6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb6.Size = new System.Drawing.Size(129, 23);
+            this.lb6.Size = new System.Drawing.Size(105, 19);
             this.lb6.TabIndex = 69;
             this.lb6.Text = "%NG Realtime";
             this.lb6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1252,10 +1251,10 @@ namespace WindowsFormsApplication1
             this.lb7.AutoEllipsis = false;
             this.lb7.CursorType = null;
             this.lb7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lb7.Location = new System.Drawing.Point(353, 258);
+            this.lb7.Location = new System.Drawing.Point(373, 260);
             this.lb7.Name = "lb7";
             this.lb7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lb7.Size = new System.Drawing.Size(101, 23);
+            this.lb7.Size = new System.Drawing.Size(81, 19);
             this.lb7.TabIndex = 70;
             this.lb7.Text = "%NG Allow";
             this.lb7.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1268,10 +1267,10 @@ namespace WindowsFormsApplication1
             this.bunifuLabel2.AutoEllipsis = false;
             this.bunifuLabel2.CursorType = null;
             this.bunifuLabel2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.bunifuLabel2.Location = new System.Drawing.Point(322, 335);
+            this.bunifuLabel2.Location = new System.Drawing.Point(346, 337);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(132, 23);
+            this.bunifuLabel2.Size = new System.Drawing.Size(108, 19);
             this.bunifuLabel2.TabIndex = 71;
             this.bunifuLabel2.Text = "%RW Realtime";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1284,10 +1283,10 @@ namespace WindowsFormsApplication1
             this.bunifuLabel4.AutoEllipsis = false;
             this.bunifuLabel4.CursorType = null;
             this.bunifuLabel4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.bunifuLabel4.Location = new System.Drawing.Point(350, 413);
+            this.bunifuLabel4.Location = new System.Drawing.Point(370, 415);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(104, 23);
+            this.bunifuLabel4.Size = new System.Drawing.Size(84, 19);
             this.bunifuLabel4.TabIndex = 72;
             this.bunifuLabel4.Text = "%RW Allow";
             this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1300,10 +1299,10 @@ namespace WindowsFormsApplication1
             this.lbLine.AutoEllipsis = false;
             this.lbLine.CursorType = null;
             this.lbLine.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbLine.Location = new System.Drawing.Point(460, 104);
+            this.lbLine.Location = new System.Drawing.Point(460, 106);
             this.lbLine.Name = "lbLine";
             this.lbLine.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbLine.Size = new System.Drawing.Size(15, 23);
+            this.lbLine.Size = new System.Drawing.Size(12, 19);
             this.lbLine.TabIndex = 73;
             this.lbLine.Text = "...";
             this.lbLine.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1338,7 +1337,7 @@ namespace WindowsFormsApplication1
             this.tbNGA.IconRight = null;
             this.tbNGA.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbNGA.Lines = new string[0];
-            this.tbNGA.Location = new System.Drawing.Point(460, 247);
+            this.tbNGA.Location = new System.Drawing.Point(460, 249);
             this.tbNGA.MaxLength = 32767;
             this.tbNGA.MinimumSize = new System.Drawing.Size(1, 1);
             this.tbNGA.Modified = false;
@@ -1374,7 +1373,7 @@ namespace WindowsFormsApplication1
             this.tbNGA.SelectionLength = 0;
             this.tbNGA.SelectionStart = 0;
             this.tbNGA.ShortcutsEnabled = true;
-            this.tbNGA.Size = new System.Drawing.Size(131, 45);
+            this.tbNGA.Size = new System.Drawing.Size(131, 41);
             this.tbNGA.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.tbNGA.TabIndex = 75;
             this.tbNGA.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1392,10 +1391,10 @@ namespace WindowsFormsApplication1
             this.lbRWR.AutoEllipsis = false;
             this.lbRWR.CursorType = null;
             this.lbRWR.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbRWR.Location = new System.Drawing.Point(460, 335);
+            this.lbRWR.Location = new System.Drawing.Point(460, 337);
             this.lbRWR.Name = "lbRWR";
             this.lbRWR.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbRWR.Size = new System.Drawing.Size(15, 23);
+            this.lbRWR.Size = new System.Drawing.Size(12, 19);
             this.lbRWR.TabIndex = 76;
             this.lbRWR.Text = "...";
             this.lbRWR.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1408,10 +1407,10 @@ namespace WindowsFormsApplication1
             this.lbRWA.AutoEllipsis = false;
             this.lbRWA.CursorType = null;
             this.lbRWA.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbRWA.Location = new System.Drawing.Point(460, 413);
+            this.lbRWA.Location = new System.Drawing.Point(460, 415);
             this.lbRWA.Name = "lbRWA";
             this.lbRWA.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbRWA.Size = new System.Drawing.Size(15, 23);
+            this.lbRWA.Size = new System.Drawing.Size(12, 19);
             this.lbRWA.TabIndex = 77;
             this.lbRWA.Text = "...";
             this.lbRWA.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1424,10 +1423,10 @@ namespace WindowsFormsApplication1
             this.lbOP.AutoEllipsis = false;
             this.lbOP.CursorType = null;
             this.lbOP.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbOP.Location = new System.Drawing.Point(181, 104);
+            this.lbOP.Location = new System.Drawing.Point(181, 106);
             this.lbOP.Name = "lbOP";
             this.lbOP.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbOP.Size = new System.Drawing.Size(15, 23);
+            this.lbOP.Size = new System.Drawing.Size(12, 19);
             this.lbOP.TabIndex = 79;
             this.lbOP.Text = "...";
             this.lbOP.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1440,10 +1439,10 @@ namespace WindowsFormsApplication1
             this.lbRW.AutoEllipsis = false;
             this.lbRW.CursorType = null;
             this.lbRW.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbRW.Location = new System.Drawing.Point(181, 181);
+            this.lbRW.Location = new System.Drawing.Point(181, 183);
             this.lbRW.Name = "lbRW";
             this.lbRW.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbRW.Size = new System.Drawing.Size(15, 23);
+            this.lbRW.Size = new System.Drawing.Size(12, 19);
             this.lbRW.TabIndex = 80;
             this.lbRW.Text = "...";
             this.lbRW.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1456,10 +1455,10 @@ namespace WindowsFormsApplication1
             this.lbNG.AutoEllipsis = false;
             this.lbNG.CursorType = null;
             this.lbNG.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbNG.Location = new System.Drawing.Point(181, 258);
+            this.lbNG.Location = new System.Drawing.Point(181, 260);
             this.lbNG.Name = "lbNG";
             this.lbNG.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbNG.Size = new System.Drawing.Size(15, 23);
+            this.lbNG.Size = new System.Drawing.Size(12, 19);
             this.lbNG.TabIndex = 81;
             this.lbNG.Text = "...";
             this.lbNG.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1472,10 +1471,10 @@ namespace WindowsFormsApplication1
             this.lbTt.AutoEllipsis = false;
             this.lbTt.CursorType = null;
             this.lbTt.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbTt.Location = new System.Drawing.Point(181, 335);
+            this.lbTt.Location = new System.Drawing.Point(181, 337);
             this.lbTt.Name = "lbTt";
             this.lbTt.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbTt.Size = new System.Drawing.Size(15, 23);
+            this.lbTt.Size = new System.Drawing.Size(12, 19);
             this.lbTt.TabIndex = 82;
             this.lbTt.Text = "...";
             this.lbTt.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1488,10 +1487,10 @@ namespace WindowsFormsApplication1
             this.lbTarget.AutoEllipsis = false;
             this.lbTarget.CursorType = null;
             this.lbTarget.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbTarget.Location = new System.Drawing.Point(181, 413);
+            this.lbTarget.Location = new System.Drawing.Point(181, 415);
             this.lbTarget.Name = "lbTarget";
             this.lbTarget.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbTarget.Size = new System.Drawing.Size(15, 23);
+            this.lbTarget.Size = new System.Drawing.Size(12, 19);
             this.lbTarget.TabIndex = 83;
             this.lbTarget.Text = "...";
             this.lbTarget.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1504,10 +1503,10 @@ namespace WindowsFormsApplication1
             this.lbNGR.AutoEllipsis = false;
             this.lbNGR.CursorType = null;
             this.lbNGR.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.lbNGR.Location = new System.Drawing.Point(460, 181);
+            this.lbNGR.Location = new System.Drawing.Point(460, 183);
             this.lbNGR.Name = "lbNGR";
             this.lbNGR.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lbNGR.Size = new System.Drawing.Size(15, 23);
+            this.lbNGR.Size = new System.Drawing.Size(12, 19);
             this.lbNGR.TabIndex = 74;
             this.lbNGR.Text = "...";
             this.lbNGR.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
@@ -1691,7 +1690,7 @@ namespace WindowsFormsApplication1
             this.tbSearch.IconRight = null;
             this.tbSearch.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.tbSearch.Lines = new string[0];
-            this.tbSearch.Location = new System.Drawing.Point(105, 16);
+            this.tbSearch.Location = new System.Drawing.Point(105, 18);
             this.tbSearch.MaxLength = 32767;
             this.tbSearch.MinimumSize = new System.Drawing.Size(1, 1);
             this.tbSearch.Modified = false;
@@ -1727,7 +1726,7 @@ namespace WindowsFormsApplication1
             this.tbSearch.SelectionLength = 0;
             this.tbSearch.SelectionStart = 0;
             this.tbSearch.ShortcutsEnabled = true;
-            this.tbSearch.Size = new System.Drawing.Size(260, 43);
+            this.tbSearch.Size = new System.Drawing.Size(260, 39);
             this.tbSearch.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.tbSearch.TabIndex = 56;
             this.tbSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1949,7 +1948,7 @@ namespace WindowsFormsApplication1
             // 
             // UC_Product_Info
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.tableLayoutPanel1);

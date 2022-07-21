@@ -22,6 +22,12 @@ namespace WindowsFormsApplication1
             dtpChart.Enabled = false;
             SaveData.Date = DateTime.Today.ToString("yyyy-MM-dd");
             dtpChart.ValueChanged += new EventHandler(dtpChart_ValueChanged);           
+            //Setting
+            lblTime.Font = new Font("Times New Roman", 14, FontStyle.Bold);
+            //Timer          
+            pnTimeControl.Enabled = false;
+            wn.OnUpdateStatus += customControl_OnUpdateStatus;
+            wnAll.OnUpdateStatus += customControl_OnUpdateStatus;
             //Update datagridview
             SaveData.MQCClick = false;
             SaveData.PQCClick = false;
@@ -29,12 +35,7 @@ namespace WindowsFormsApplication1
             SaveData.PQC = false;
             lbQC.Text = "MQC";
             UpdateDTGV();
-            //Setting
-            lblTime.Font = new Font("Times New Roman", 14, FontStyle.Bold);
-            //Timer          
-            pnTimeControl.Enabled = false;
-            wn.OnUpdateStatus += customControl_OnUpdateStatus;
-            wnAll.OnUpdateStatus += customControl_OnUpdateStatus;
+            dtgv_MQC_PD.DataBindingComplete += new DataGridViewBindingCompleteEventHandler(dtgv_MQC_PD_DataBindingComplete);
         }
 
         //List data
@@ -170,17 +171,14 @@ namespace WindowsFormsApplication1
                     dataMQC.Clear();                    
                     dtgv_MQC_PD.DataSource = GetSOFTdata.GetListMQC(date, line);
                     dtpChart.Visible = true;
-                    //ChangeColor();
                 }  
                 else
                 {                  
                     dataPQC.Clear();                   
                     dtgv_MQC_PD.DataSource = GetSOFTdata.GetListPQC(date, line);
                     dtpChart.Visible = true;
-                    //ChangeColor();
                 }             
             }
-            //ChangeData();
         }
         public void UpdateDTGVByLine()
         {           
@@ -193,16 +191,13 @@ namespace WindowsFormsApplication1
                 {
                     dataMQC.Clear();                   
                     dtgv_MQC_PD.DataSource = GetSOFTdata.GetListMQC(date, line);
-                    //ChangeColor();
                 }    
                 else
                 {
                     dataPQC.Clear();
                     dtgv_MQC_PD.DataSource = GetSOFTdata.GetListPQC(date, line);
-                    //ChangeColor();
                 }
             }
-            //ChangeData();
             if (SaveData.Date != DateTime.Today.ToString("yyyy-MM-dd"))
             {
                 btStart.Enabled = true;
@@ -403,8 +398,6 @@ namespace WindowsFormsApplication1
                     DataTable searchResultTable = results.CopyToDataTable();
                     dataMQC.Clear();
                     dtgv_MQC_PD.DataSource = searchResultTable;
-                    //ChangeColor();
-                    //ChangeData();
                 }
                 else
                 {
@@ -419,8 +412,6 @@ namespace WindowsFormsApplication1
                     DataTable searchResultTable = results.CopyToDataTable();
                     dataPQC.Clear();
                     dtgv_MQC_PD.DataSource = searchResultTable;
-                    //ChangeColor();
-                    //ChangeData();
                 }
                 else
                 {
@@ -493,8 +484,6 @@ namespace WindowsFormsApplication1
                         DataTable searchResultTable = results.CopyToDataTable();
                         dataMQC.Clear();
                         dtgv_MQC_PD.DataSource = searchResultTable;
-                        //ChangeColor();
-                        //ChangeData();
                     }
                     else
                     {
@@ -509,8 +498,6 @@ namespace WindowsFormsApplication1
                         DataTable searchResultTable = results.CopyToDataTable();
                         dataPQC.Clear();
                         dtgv_MQC_PD.DataSource = searchResultTable;
-                        //ChangeColor();
-                        //ChangeData();
                     }
                     else
                     {

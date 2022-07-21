@@ -10,17 +10,6 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();           
         }
-        UC_MQC_PieChart uc_MQC_PieChart = new UC_MQC_PieChart();
-        UC_PQC_PieChart uc_PQC_PieChart = new UC_PQC_PieChart();
-        UC_Product_Info uc_PI = new UC_Product_Info();
-        //For timer tick event in every user control
-        public static bool MQC;
-        public static bool PQC;
-        public static bool PD;
-        //Check
-        public static bool ucMQC;
-        public static bool ucPQC;
-        public static bool ucPD;
 
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -33,14 +22,29 @@ namespace WindowsFormsApplication1
             //Add event for click button line in user control MQC/PQC change to user control Product Data
             uc_MQC_PieChart.OnUpdateStatus += customControl_OnUpdateStatus;
             uc_PQC_PieChart.OnUpdateStatus += customControl_OnUpdateStatus;
-            btMQCPD.PerformClick();
-            btMQCPD.Focus();
+            //Change chart size
             changeSize();
             //For sync update after a user control update in every user control
             SaveData.uc_pi = 0;
             SaveData.uc_mqc = 0;
             SaveData.uc_pqc = 0;
-        }        
+            //Show Model Info UC
+            btMQCPD.PerformClick();
+            btMQCPD.Focus();
+        }
+
+        UC_MQC_PieChart uc_MQC_PieChart = new UC_MQC_PieChart();
+        UC_PQC_PieChart uc_PQC_PieChart = new UC_PQC_PieChart();
+        UC_Product_Info uc_PI = new UC_Product_Info();
+        //For timer tick event in every user control
+        public static bool MQC;
+        public static bool PQC;
+        public static bool PD;
+        //Check
+        public static bool ucMQC;
+        public static bool ucPQC;
+        public static bool ucPD;
+
         public void changeSize()
         {
             if (Screen.PrimaryScreen.Bounds.Width <= 1600)

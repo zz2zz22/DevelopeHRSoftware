@@ -23,7 +23,6 @@ namespace WindowsFormsApplication1
             catch (Exception)
             {
                 conn.Close();
-               
                 return string.Empty;
             }
         }
@@ -31,6 +30,7 @@ namespace WindowsFormsApplication1
         {
             try
             {
+                conn.Open();
                 SqlCommand cmd = new SqlCommand();
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 {
@@ -42,8 +42,8 @@ namespace WindowsFormsApplication1
             }
             catch (Exception)
             {
-                
             }
+            conn.Close();
         }
         public void getComboBoxData(string sql, ref ComboBox cmb)
         {
@@ -92,7 +92,6 @@ namespace WindowsFormsApplication1
             }
             catch (Exception)
             {
-               
                 conn.Close();
                 return false;
             }
