@@ -602,7 +602,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>XanQcZNe+7tIWIOiI0u6C6GmSW79N24PfppEPIn51zM=</dsig:DigestValue>
+        <dsig:DigestValue>jonGnqXVfyHeQtHellBQjFSREU/BLbGekDyl8O/QPIs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
